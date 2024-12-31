@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 
 const ContactPage = () => {
   return (
-    <div className="px-0 lg:px-36">
+    <div className="mx-1 lg:mx-36">
       <h1 className="text-5xl font-semibold text-center text-gray-800 font-greatvibes ">Contact Us</h1>
 
       <div className="h-screen flex items-center justify-center px-6">

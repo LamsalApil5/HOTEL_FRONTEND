@@ -51,7 +51,7 @@ const RoomsPage = () => {
   }
 
   return (
-    <div className="h-screen mx-0 lg:mx-36">
+    <div className="h-screen mx-1 lg:mx-36">
       <h1 className="text-5xl font-bold mb-16 text-center font-greatvibes">Our Rooms</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {rooms.map((room, index) => (
@@ -86,7 +86,7 @@ const RoomsPage = () => {
       {/* Modal for Room Details */}
       {selectedRoom && (
         <Dialog open={true} onOpenChange={handleCloseModal}>
-          <div className="fixed inset-0 bg-gray-500 bg-opacity-50 z-50 flex justify-center items-center">
+          <div className="fixed inset-0 bg-gray-500 bg-opacity-50 z-50 flex justify-center items-center overflow-scroll">
             <div className="p-6 bg-white rounded-lg shadow-lg max-w-6xl w-full mx-4">
               <h2 className="text-2xl font-bold mb-4">{selectedRoom.name}</h2>
               <img
