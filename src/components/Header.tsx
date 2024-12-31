@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { useState} from "react";
+import { useState } from "react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +14,10 @@ const Header = () => {
       <div className="container mx-auto px-8 lg:px-36">
         <nav className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="text-3xl font-extrabold text-gray-800 font-greatvibes">
+          <Link
+            to="/"
+            className="text-3xl font-extrabold text-gray-800 font-greatvibes"
+          >
             Paradise Guest House
           </Link>
 
@@ -55,7 +58,10 @@ const Header = () => {
             } absolute lg:static top-16 right-0 lg:top-auto lg:right-auto w-full lg:w-auto bg-white lg:bg-transparent shadow-lg lg:shadow-none z-10`}
           >
             <li className="py-2 lg:py-0">
-              <Link to="/">
+              <Link
+                to="/"
+                onClick={() => setIsMenuOpen(false)} // Close menu on click
+              >
                 <Button
                   variant={isActive("/") ? "default" : "ghost"}
                   className={`${
@@ -69,7 +75,10 @@ const Header = () => {
               </Link>
             </li>
             <li className="py-2 lg:py-0">
-              <Link to="/rooms">
+              <Link
+                to="/rooms"
+                onClick={() => setIsMenuOpen(false)} // Close menu on click
+              >
                 <Button
                   variant={isActive("/rooms") ? "default" : "ghost"}
                   className={`${
@@ -83,7 +92,10 @@ const Header = () => {
               </Link>
             </li>
             <li className="py-2 lg:py-0">
-              <Link to="/gallery">
+              <Link
+                to="/gallery"
+                onClick={() => setIsMenuOpen(false)} // Close menu on click
+              >
                 <Button
                   variant={isActive("/gallery") ? "default" : "ghost"}
                   className={`${
@@ -97,7 +109,10 @@ const Header = () => {
               </Link>
             </li>
             <li className="py-2 lg:py-0">
-              <Link to="/contact">
+              <Link
+                to="/contact"
+                onClick={() => setIsMenuOpen(false)} // Close menu on click
+              >
                 <Button
                   variant={isActive("/contact") ? "default" : "ghost"}
                   className={`${

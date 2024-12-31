@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import StandardRoom from '../../image/Standard Room.jpg'
 import DeluxeRoom from '../../image/Deluxe Suite.jpg'
-import PersidentialRoom from '../../image/Presidential Suite.jpg'
 const RoomsSection = () => (
   <div className="container mx-auto px-4 py-16">
     <motion.section
@@ -14,8 +13,7 @@ const RoomsSection = () => (
       <div className="space-y-16">
         {[
           { id: 1, img: DeluxeRoom, title: 'Deluxe Suite', desc: 'Experience luxury and comfort in our deluxe suite.' },
-          { id: 2, img: PersidentialRoom, title: 'Presidential Suite', desc: 'The ultimate luxury for the most discerning guests.' },
-          { id: 3, img: StandardRoom, title: 'Standard Room', desc: 'Cozy and well-equipped for a perfect stay.' },
+           { id: 3, img: StandardRoom, title: 'Standard Room', desc: 'Cozy and well-equipped for a perfect stay.' },
         ].map((room, index) => (
           <motion.div
             key={room.id}
