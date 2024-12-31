@@ -25,7 +25,7 @@ const GalleryPage = () => {
   const closePopup = () => setSelectedImage(null);
 
   return (
-    <div className="mx-36 h-screen">
+    <div className="px-0 lg:px-36 h-screen">
       <h1 className="text-center text-5xl font-bold my-4 font-greatvibes ">Image Gallery</h1>
 
       {/* Image Grid */}

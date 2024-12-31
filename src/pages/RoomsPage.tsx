@@ -51,7 +51,7 @@ const RoomsPage = () => {
   }
 
   return (
-    <div className="h-screen mx-36">
+    <div className="h-screen mx-0 lg:mx-36">
       <h1 className="text-5xl font-bold mb-16 text-center font-greatvibes">Our Rooms</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {rooms.map((room, index) => (
