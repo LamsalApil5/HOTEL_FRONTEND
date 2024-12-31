@@ -9,7 +9,7 @@ const ContactPage = () => {
     <div className="mx-1 lg:mx-36 mt-8 lg:mt-0">
       <h1 className="text-5xl font-semibold text-center text-gray-800 font-greatvibes ">Contact Us</h1>
 
-      <div className="flex items-center justify-center px-6">
+      <div className="flex items-center justify-center px-6 py-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-7xl">
           {/* Contact Form Section */}
           <motion.form
