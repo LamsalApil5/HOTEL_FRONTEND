@@ -3,14 +3,14 @@ import StandardRoom from '../image/Standard Room.jpg'
 import DeluxeRoom from '../image/Deluxe Suite.jpg'
 import PersidentialRoom from '../image/Presidential Suite.jpg'
 const RoomsPage = () => (
-  <div className="container mx-auto px-4 py-16">
+  <div className="container mx-auto px-4 py-8">
     <motion.section
       className="mb-16"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <h2 className="text-5xl font-bold text-center mb-24 font-greatvibes">Our Rooms</h2>
+      <h2 className="text-5xl font-bold text-center mb-16 font-greatvibes">Our Rooms</h2>
       <div className="space-y-16">
         {[
           { id: 1, img: DeluxeRoom, title: 'Deluxe Suite', desc: 'Experience luxury and comfort in our deluxe suite.' },

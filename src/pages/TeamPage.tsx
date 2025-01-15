@@ -15,9 +15,9 @@ const TeamPage: React.FC = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto p-4">
+    <div className="max-w-7xl mx-auto ">
       <motion.h1
-        className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8"
+        className="text-5xl md:text-5xl  font-bold text-center text-gray-800 mb-8 font-greatvibes py-8"
         initial={{ opacity: 0 }} // Start invisible
         whileInView={{ opacity: 1 }} // Fade in when in view
         transition={{ duration: 0.5 }} // Duration of the fade-in effect
