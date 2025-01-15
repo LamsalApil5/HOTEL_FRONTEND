@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
@@ -53,7 +54,7 @@ const Footer = () => {
               >
                 Our Teams
               </Button>
-            </Link>          
+            </Link>
             <Link to="/contact" className="hover:text-yellow-500">
               <Button
                 variant="ghost"
@@ -65,12 +66,34 @@ const Footer = () => {
           </div>
 
           {/* About Us Section */}
-          <div className="text-center md:text-right text-gray-500 text-sm">
-            <h3 className="text-black font-bold">About Us</h3>
-            <p>
-              Experience the best hospitality in Marpha, Mustang. Perfect for
-              travelers seeking comfort and breathtaking views.
-            </p>
+          <div className="text-center md:text-right text-gray-500 ">
+            <motion.h3
+              className="text-black font-bold text-md"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1 }}
+            >
+              About Us
+            </motion.h3>
+            <motion.p
+              className="text-center md:text-right text-gray-500 text-sm"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 2 }}
+            >
+              Nestled in the heart of the Himalayas, our family-owned hotel has
+              been a cherished retreat since 1979. Managed by the second
+              generation, we offer a blend of authenticity and luxury.
+              <br />
+              Our farm-to-table philosophy ensures every meal is made with
+              fresh, organic ingredients from our backyard. Guests rave about
+              our Thakali dishes and Apple Crumble made with handpicked apples
+              from our orchard. We’re also the only place in the village serving
+              freshly brewed coffee.
+              <br />
+              Join us for a stay where tradition and hospitality meet, creating
+              unforgettable memories.
+            </motion.p>
           </div>
         </div>
 

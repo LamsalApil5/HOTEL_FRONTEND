@@ -64,7 +64,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div
-        className="w-full lg:w-1/2 flex items-center justify-center h-full bg-cover bg-center order-1 lg:order-2"
+        className="w-full lg:w-1/2 flex items-center justify-center h-full bg-cover bg-center order-1 lg:order-2 pt-8"
         style={{ backgroundImage: `url(${imgHotel})` }}
       ></div>
     </div>

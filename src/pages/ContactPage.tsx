@@ -3,11 +3,14 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa"; // Import icons
 
 const ContactPage = () => {
   return (
     <div className="mx-1 lg:mx-36 my-8 lg:mt-0">
-      <h1 className="text-5xl font-semibold text-center text-gray-800 font-greatvibes py-8">Contact Us</h1>
+      <h1 className="text-5xl font-semibold text-center text-gray-800 font-greatvibes py-8">
+        Contact Us
+      </h1>
 
       <div className="flex items-center justify-center px-6 py-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-7xl">
@@ -19,7 +22,9 @@ const ContactPage = () => {
             transition={{ duration: 0.5 }}
           >
             <div>
-              <Label htmlFor="name" className="text-lg text-gray-800">Name</Label>
+              <Label htmlFor="name" className="text-lg text-gray-800">
+                Name
+              </Label>
               <Input
                 id="name"
                 placeholder="Enter your name"
@@ -28,7 +33,9 @@ const ContactPage = () => {
             </div>
 
             <div>
-              <Label htmlFor="email" className="text-lg text-gray-800">Email</Label>
+              <Label htmlFor="email" className="text-lg text-gray-800">
+                Email
+              </Label>
               <Input
                 id="email"
                 type="email"
@@ -38,7 +45,9 @@ const ContactPage = () => {
             </div>
 
             <div>
-              <Label htmlFor="message" className="text-lg text-gray-800">Message</Label>
+              <Label htmlFor="message" className="text-lg text-gray-800">
+                Message
+              </Label>
               <Textarea
                 id="message"
                 placeholder="Enter your message"
@@ -56,16 +65,53 @@ const ContactPage = () => {
 
           {/* Contact Details and Map Section */}
           <div className="w-full space-y-6 bg-white p-8 duration-300">
+            {/* Social Media Links Section */}
+            <div className="flex space-x-6 text-4xl">
+              {/* WhatsApp */}
+              <a
+                href="https://wa.me/9771234567890"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-500 hover:text-green-700"
+              >
+                <FaWhatsapp />
+              </a>
+
+              {/* Facebook */}
+              <a
+                href="https://www.facebook.com/yourpage"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800"
+              >
+                <FaFacebook />
+              </a>
+
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/yourpage"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-pink-600 hover:text-pink-800"
+              >
+                <FaInstagram />
+              </a>
+            </div>
             <div className="text-left">
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">Our Contact Details</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+                Our Contact Details
+              </h2>
               <p className="text-lg mb-2 text-gray-600">
-                <strong className="font-semibold">Phone:</strong> +977 123-4567890
+                <strong className="font-semibold">Phone:</strong> +977
+                123-4567890
               </p>
               <p className="text-lg mb-2 text-gray-600">
-                <strong className="font-semibold">Email:</strong> info@paradiseguesthouse.com
+                <strong className="font-semibold">Email:</strong>{" "}
+                info@paradiseguesthouse.com
               </p>
               <p className="text-lg mb-4 text-gray-600">
-                <strong className="font-semibold">Address:</strong> Marpha, Mustang, Nepal
+                <strong className="font-semibold">Address:</strong> Marpha,
+                Mustang, Nepal
               </p>
             </div>
 
