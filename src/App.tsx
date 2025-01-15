@@ -7,6 +7,7 @@ import RoomsPage from './pages/RoomsPage';
 import ContactPage from './pages/ContactPage';
 import logo from './image/Hotel.png'; // Add your logo image here
 import GalleryPage from './pages/GalleryPage';
+import TeamPage from './pages/TeamPage';
 
 function App() {
   const UpdateTitleAndFavicon = () => {
@@ -45,7 +46,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/rooms" element={<RoomsPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
-            <Route path="/teams" element={<GalleryPage />} />
+            <Route path="/teams" element={<TeamPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </Layout>
