@@ -1,4 +1,3 @@
-import GoogleReviews from "@/components/googleReview";
 import HeroSection from "./Home/HeroSection";
 import RoomsSection from "./Home/RoomsSection";
 
@@ -7,7 +6,7 @@ const HomePage = () => {
     <div className="min-h-screen">
       <HeroSection />
       <RoomsSection />
-      <GoogleReviews placeId="ChIJ9RthOy8PvjkRyN00iAcRiQA" apiKey="AIzaSyBNWSLLP2-ULLvQBGkzwb2WFy2-SiDZEgs" />
+      {/* <GoogleReviews placeId="ChIJ9RthOy8PvjkRyN00iAcRiQA" apiKey="AIzaSyBNWSLLP2-ULLvQBGkzwb2WFy2-SiDZEgs" /> */}
     </div>
   );
 };

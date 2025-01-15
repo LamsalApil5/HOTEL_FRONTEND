@@ -76,7 +76,7 @@ const GoogleReviews: React.FC<GoogleReviewsProps> = ({ placeId, apiKey, limit = 
   };
 
   if (loading) return <p className="text-center text-gray-500">Loading reviews...</p>;
-  if (error) return <p className="text-center text-red-500">{error}</p>;
+  if (error) return <p className="text-center text-red-500"></p>;
 
   const reviewsToShow = showAll ? reviews : reviews.slice(0, limit);
 
