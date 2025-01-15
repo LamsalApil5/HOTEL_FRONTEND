@@ -1,4 +1,4 @@
-import GoogleReviews from "@/components/googlereview";
+import GoogleReviews from "@/components/googleReview";
 import HeroSection from "./Home/HeroSection";
 import RoomsSection from "./Home/RoomsSection";
 
