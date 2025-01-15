@@ -87,7 +87,7 @@ const Header = () => {
                       : "hover:bg-yellow-50"
                   } rounded-lg hover:bg-yellow-50`}
                 >
-                  Rooms
+                  Accommodation
                 </Button>
               </Link>
             </li>
@@ -108,6 +108,24 @@ const Header = () => {
                 </Button>
               </Link>
             </li>
+            <li className="py-2 lg:py-0">
+              <Link
+                to="/teams"
+                onClick={() => setIsMenuOpen(false)} // Close menu on click
+              >
+                <Button
+                  variant={isActive("/teams") ? "default" : "ghost"}
+                  className={`${
+                    isActive("/teams")
+                      ? "bg-yellow-50 text-black"
+                      : "hover:bg-yellow-50"
+                  } rounded-lg hover:bg-yellow-50`}
+                >
+                  Our Teams
+                </Button>
+              </Link>
+            </li> 
+            
             <li className="py-2 lg:py-0">
               <Link
                 to="/contact"
