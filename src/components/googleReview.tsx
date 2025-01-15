@@ -8,6 +8,12 @@ interface Review {
   time: string;
 }
 
+interface GooglePlaceResponse {
+  result: {
+    reviews: Review[];
+  };
+}
+
 interface GoogleReviewsProps {
   placeId: string;
   apiKey: string;
@@ -24,26 +30,28 @@ const GoogleReviews: React.FC<GoogleReviewsProps> = ({ placeId, apiKey, limit = 
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await axios.get(
+        const response = await axios.get<GooglePlaceResponse>(
           `https://maps.googleapis.com/maps/api/place/details/json`,
           {
             params: {
               placeid: placeId,
-              fields: "reviews",  // Limit to only reviews
+              fields: "reviews", // Limit to only reviews
               key: apiKey,
             },
           }
         );
-        const result = response.data;
 
-        if (result && result.result && result.result.reviews) {
-          setReviews(result.result.reviews);
+        if (response.data.result?.reviews) {
+          setReviews(response.data.result.reviews);
         } else {
           setReviews([]);
         }
       } catch (err) {
-        console.error(err); // Log error for debugging
-        setError("Failed to fetch reviews. Please try again later. " + err.message);
+        let message = "Failed to fetch reviews. Please try again later.";
+        if (err instanceof Error) {
+          message += ` ${err.message}`;
+        }
+        setError(message);
       } finally {
         setLoading(false);
       }
