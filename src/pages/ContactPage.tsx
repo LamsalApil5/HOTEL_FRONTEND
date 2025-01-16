@@ -98,9 +98,6 @@ const ContactPage = () => {
               </a>
             </div>
             <div className="text-left">
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Our Contact Details
-              </h2>
               <p className="text-lg mb-2 text-gray-600">
                 <strong className="font-semibold">Hotline:</strong> 9842850833
               </p>
