@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import logo from "../image/Logo.png";
 
 const Footer = () => {
   return (
@@ -9,15 +10,18 @@ const Footer = () => {
         {/* Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Logo Section */}
-          <div className="flex items-start space-x-3 justify-center md:justify-start">
+          <div className="flex items-center space-x-3 justify-center md:justify-start">
             <img
-              src="/path-to-logo.png"
+              src={logo}
               alt="Paradise Guest House Logo"
-              className="h-10 w-10 object-contain"
+              className="h-24 w-24 flex justify-center items-center object-contain"
             />
-            <span className="font-bold text-lg text-gray-700">
-              Paradise Guest House
-            </span>
+            <div>
+              <h3 className="font-bold text-2xl text-gray-700 font-greatvibes">
+                Paradise Guest House
+              </h3>
+              <p className="font-normal text-sm">Marpha - Mustang - Nepal</p>
+            </div>
           </div>
 
           {/* Quick Links Section */}

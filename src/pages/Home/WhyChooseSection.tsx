@@ -9,7 +9,7 @@ const WhyChooseSection: React.FC = () => {
       whileInView={{ opacity: 1 }} // Change opacity to 1 when the component is in view
       transition={{ duration: 0.5 }} // Duration of the fade-in effect
     >
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-6  font-greatvibes">
+      <h2 className="text-3xl font-bold text-center text-gray-900 mb-6  font-greatvibes">
         Why Choose to Paradise Guest House
       </h2>
       <p className="text-lg text-gray-700 mb-4">

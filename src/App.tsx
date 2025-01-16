@@ -5,7 +5,7 @@ import Layout from './components/layout';
 import HomePage from './pages/HomePage';
 import RoomsPage from './pages/RoomsPage';
 import ContactPage from './pages/ContactPage';
-import logo from './image/Hotel.png'; // Add your logo image here
+import logo from './image/Logo.png'; // Add your logo image here
 import GalleryPage from './pages/GalleryPage';
 import TeamPage from './pages/TeamPage';
 

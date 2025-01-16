@@ -16,11 +16,11 @@ const RestaurantSection = () => {
       {/* Content Section */}
       <div className="flex flex-col md:flex-row items-center md:items-stretch gap-8 text-gray-500">
         {/* Image Section */}
-        <div className="w-full md:w-1/2 mb-6 md:mb-0 h-auto">
+        <div className="w-full md:w-1/2 mb-6 md:mb-0 h-auto relative group">
           <img
             src="https://picsum.photos/200?random=1"
             alt="Restaurant"
-            className="rounded-lg shadow-lg w-full h-auto object-cover"
+            className="rounded-lg shadow-lg w-full h-auto object-cover transition-transform transform group-hover:scale-105 group-hover:shadow-2xl group-hover:opacity-70"
           />
         </div>
 
