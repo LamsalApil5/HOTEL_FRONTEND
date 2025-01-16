@@ -69,7 +69,7 @@ const ContactPage = () => {
             <div className="flex space-x-6 text-4xl">
               {/* WhatsApp */}
               <a
-                href="https://wa.me/9771234567890"
+                href="https://wa.me/9779805839753"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-green-500 hover:text-green-700"
@@ -102,12 +102,15 @@ const ContactPage = () => {
                 Our Contact Details
               </h2>
               <p className="text-lg mb-2 text-gray-600">
+                <strong className="font-semibold">Hotline:</strong> 9842850833
+              </p>
+              <p className="text-lg mb-2 text-gray-600">
                 <strong className="font-semibold">Phone:</strong> +977
-                123-4567890
+                9805839753
               </p>
               <p className="text-lg mb-2 text-gray-600">
                 <strong className="font-semibold">Email:</strong>{" "}
-                info@paradiseguesthouse.com
+                riabista27@gmail.com
               </p>
               <p className="text-lg mb-4 text-gray-600">
                 <strong className="font-semibold">Address:</strong> Marpha,

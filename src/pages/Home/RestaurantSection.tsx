@@ -34,7 +34,7 @@ const RestaurantSection = () => {
             region, every dish is crafted to perfection.
           </p>
           <button
-            onClick={() => window.open("https://wa.me/9779866190102", "_blank")}
+            onClick={() => window.open("https://wa.me/9779805839753", "_blank")}
             className="bg-yellow-50 hover:bg-yellow-100 text-black px-6 py-3 rounded-lg text-md md:text-base flex items-center justify-center"
           >
             Contact for Reservations

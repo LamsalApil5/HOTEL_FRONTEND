@@ -6,7 +6,7 @@ import "../../assets/style/fonts.css";
 const HeroSection = () => {
   
   const handleBookNow = () => {
-    const phoneNumber = "9779805839153"; // Replace with your WhatsApp number
+    const phoneNumber = "9779805839753"; // Replace with your WhatsApp number
     const message = "Hello! I would like to inquire about Paradise guesthouse."; // Customize your message
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
