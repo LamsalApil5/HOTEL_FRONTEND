@@ -52,7 +52,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          Marpha, Mustang, Nepal
+          Marpha - Mustang - Nepal
         </motion.p>
         {/* <motion.p
           className="text-sm lg:text-xl italic mb-8 font-lora"
