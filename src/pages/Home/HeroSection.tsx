@@ -58,7 +58,7 @@ const HeroSection = () => {
           >
             <Button
               size="lg"
-              className="shadow-lg bg-yellow-50 hover:bg-yellow-100 text-black"
+              className="shadow-lg bg-yellow-50 hover:bg-yellow-100 text-black font-roboto-flex"
               onClick={handleBookNow}
             >
               Book Now

@@ -33,8 +33,8 @@ const RoomsSection = () => (
               </div>
               {/* Room Details */}
               <div className="p-4 flex flex-col justify-center lg:w-1/2">
-                <h3 className="text-xl font-bold mb-2">{room.title}</h3>
-                <p className="text-gray-600">{room.desc}</p>
+                <h3 className="text-xl font-bold mb-2 font-roboto-flex">{room.title}</h3>
+                <p className="text-gray-600 font-lora">{room.desc}</p>
               </div>
             </div>
           </motion.div>
