@@ -55,12 +55,12 @@ const FAQ = () => {
 
   return (
     <>
+
+      <div className="faq-container py-8 px-6 md:px-32 bg-white">
       <div
         className="text-4xl text-center font-roboto-flex text-gray-800 mt-4 md:mt-8 flex items-center justify-center">
         Frequently Asked Questions
       </div>
-
-      <div className="faq-container py-8 px-6 md:px-32 bg-white">
         <div className="faq-list mt-8">
           {faqData.map((faq, index) => (
             <motion.div
