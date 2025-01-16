@@ -1,14 +1,17 @@
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";  // Import useNavigate hook
 import { Button } from "@/components/ui/button";
 import imgHotel from "../../image/Hero.png";
 import "../../assets/style/fonts.css";
 
 const HeroSection = () => {
-  const navigate = useNavigate();  // Replace useRouter with useNavigate
-
+  
   const handleBookNow = () => {
-    navigate("/contact");  // Use navigate instead of router.push
+    const phoneNumber = "9779866190102"; // Replace with your WhatsApp number
+    const message = "Hello! I would like to inquire about Paradise guesthouse."; // Customize your message
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+    // Open WhatsApp in a new tab
+    window.open(whatsappURL, "_blank");
   };
   
   return (

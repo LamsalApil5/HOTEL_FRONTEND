@@ -10,7 +10,7 @@ const WhyChooseSection: React.FC = () => {
       transition={{ duration: 0.5 }} // Duration of the fade-in effect
     >
       <h2 className="text-4xl font-bold text-center text-gray-800 mb-6  font-greatvibes">
-        Why Choose Welcome to Paradise Guest House
+        Why Choose to Paradise Guest House
       </h2>
       <p className="text-lg text-gray-700 mb-4">
         Welcome to Paradise Guest House, your ideal escape to tranquility and relaxation. We are committed to

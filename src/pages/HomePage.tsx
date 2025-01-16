@@ -1,5 +1,6 @@
 import HeroSection from "./Home/HeroSection";
 import Location from "./Home/HLocation";
+import RestaurantSection from "./Home/RestaurantSection";
 import RoomsSection from "./Home/RoomsSection";
 import WhyChooseSection from "./Home/WhyChooseSection";
 
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Location />
       <RoomsSection />
       <WhyChooseSection />
+      <RestaurantSection/>
       {/* <GoogleReviews placeId="ChIJ9RthOy8PvjkRyN00iAcRiQA" apiKey="AIzaSyBNWSLLP2-ULLvQBGkzwb2WFy2-SiDZEgs" /> */}
     </div>
   );
