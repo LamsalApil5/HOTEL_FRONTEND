@@ -38,9 +38,9 @@ const mockData: Data = {
     },
     {
       id: 4,
-      name: "Apricot juice",
+      name: "Apple Crumble",
       description:
-        "Our apple cider is made using the freshest apples, fermented to create a crisp and tangy beverage. It’s the perfect balance of sweetness and acidity, with a refreshing effervescence that brings out the natural flavors of the apples grown in our region.",
+        "Made with fresh apples from our orchard, our Apple Crumble is a Dutch recipe loved by trekkers and locals alike. With a perfect blend of sweet, tart apples and a golden, buttery topping, it’s a comforting treat that’s become famous along the trail. A taste of Holland in the heart of Marpha!",
       image: "https://picsum.photos/200?random=4",
     },
   ],
