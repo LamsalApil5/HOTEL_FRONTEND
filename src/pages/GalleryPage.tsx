@@ -26,7 +26,7 @@ const GalleryPage = () => {
 
   return (
     <div className="mx-1 lg:mx-36 h-screen">
-      <h1 className="text-center text-5xl font-bold my-4 font-greatvibes py-8">Image Gallery</h1>
+      <h1 className="text-center text-5xl my-4 font-roboto-flex py-8">Image Gallery</h1>
 
       {/* Image Grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4">

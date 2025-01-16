@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:wght@400;700&family=Short+Stack&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 .font-greatvibes {
   font-family: 'Great Vibes', cursive;
@@ -6,4 +6,12 @@
 
 .font-lora {
   font-family: 'Lora', serif;
+}
+
+.font-shortstack {
+  font-family: 'Short Stack', sans-serif;
+}
+
+.font-roboto-flex {
+  font-family: 'Roboto Flex', sans-serif;
 }

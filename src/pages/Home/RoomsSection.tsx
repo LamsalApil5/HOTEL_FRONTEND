@@ -9,7 +9,7 @@ const RoomsSection = () => (
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <h2 className="text-2xl md:text-4xl font-bold text-center mb-10 font-greatvibes">Our Rooms</h2>
+      <h2 className="text-2xl md:text-4xl text-center mb-10 font-roboto-flex">Our Rooms</h2>
       <div className="space-y-16">
         {[
           { id: 1, img: DeluxeRoom, title: 'Deluxe Suite', desc: 'Experience luxury and comfort in our deluxe suite.' },

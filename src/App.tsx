@@ -8,6 +8,7 @@ import ContactPage from './pages/ContactPage';
 import logo from './image/Logo.png'; // Add your logo image here
 import GalleryPage from './pages/GalleryPage';
 import TeamPage from './pages/TeamPage';
+import OurLocalPage from './pages/OurLocalPage';
 
 function App() {
   const UpdateTitleAndFavicon = () => {
@@ -18,6 +19,7 @@ function App() {
         '/': 'Welcome to Paradise Guest House',
         '/rooms': 'Our Rooms - Paradise Guest House',
         '/gallery': 'Gallery - Paradise Guest House',
+        '/teams': 'Our Team - Paradise Guest House',
         '/contact': 'Contact Us - Paradise Guest House',
       };
 
@@ -45,6 +47,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/rooms" element={<RoomsPage />} />
+            <Route path="/locals" element={<OurLocalPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/teams" element={<TeamPage />} />
             <Route path="/contact" element={<ContactPage />} />

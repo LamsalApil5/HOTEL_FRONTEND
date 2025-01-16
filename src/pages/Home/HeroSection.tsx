@@ -6,7 +6,7 @@ import "../../assets/style/fonts.css";
 const HeroSection = () => {
   
   const handleBookNow = () => {
-    const phoneNumber = "9779866190102"; // Replace with your WhatsApp number
+    const phoneNumber = "9779805839153"; // Replace with your WhatsApp number
     const message = "Hello! I would like to inquire about Paradise guesthouse."; // Customize your message
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="w-full lg:w-1/2 flex flex-col items-center justify-center text-center px-4 mb-8 lg:mb-0 order-2 lg:order-1">
         <div className="relative z-10 mt-8 md:mt-0">
           <motion.h1
-            className="text-5xl lg:text-6xl  mb-6 text-black"
+            className="text-5xl lg:text-6xl font-roboto-flex mb-6 text-black"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -27,7 +27,7 @@ const HeroSection = () => {
             Welcome to
           </motion.h1>
           <motion.h1
-            className="text-5xl lg:text-6xl font-greatvibes mb-6 text-black"
+            className="text-5xl lg:text-6xl font-roboto-flex mb-6 text-black"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}

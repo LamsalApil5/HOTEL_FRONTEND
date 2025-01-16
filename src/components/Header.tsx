@@ -20,11 +20,6 @@ const Header = () => {
             className="flex items-end space-x-4 text-3xl font-extrabold text-gray-800 font-greatvibes"
           >
             <img src={logo} alt="Paradise GuestHouse Logo" className="h-16" />
-            <div>
-              <h3 className="font-bold text-2xl text-gray-900">
-                Paradise Guest House
-              </h3>
-            </div>
           </Link>
 
           {/* Mobile Menu Toggle Button */}
@@ -77,6 +72,23 @@ const Header = () => {
                   } rounded-lg hover:bg-yellow-50`}
                 >
                   Home
+                </Button>
+              </Link>
+            </li>
+            <li className="py-2 lg:py-0">
+              <Link
+                to="/locals"
+                onClick={() => setIsMenuOpen(false)} // Close menu on click
+              >
+                <Button
+                  variant={isActive("/locals") ? "default" : "ghost"}
+                  className={`${
+                    isActive("/locals")
+                      ? "bg-yellow-50 text-black"
+                      : "hover:bg-yellow-50"
+                  } rounded-lg hover:bg-yellow-50`}
+                >
+                  Our Local
                 </Button>
               </Link>
             </li>

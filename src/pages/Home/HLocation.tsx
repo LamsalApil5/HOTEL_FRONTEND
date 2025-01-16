@@ -8,7 +8,7 @@ const Location = () => {
       animate={{ opacity: 1 }} // Final state (fully visible)
       transition={{ duration: 0.8 }} // Duration for the fade-in effect
     >
-      <h3 className="text-black font-bold text-2xl md:text-4xl mb-6 font-greatvibes">
+      <h3 className="text-black text-2xl md:text-4xl mb-6 font-roboto-flex">
         Location
       </h3>
       <p className="text-gray-600 text-base md:text-lg leading-relaxed">

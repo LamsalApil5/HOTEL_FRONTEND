@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 const RestaurantSection = () => {
   return (
     <motion.div
-      className="restaurant-section bg-gray-100 px-6 md:px-16 py-10 md:py-16"
+      className="restaurant-section bg-white px-6 md:px-16 py-10 md:py-16"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
       {/* Title Section */}
-      <h3 className="text-black font-bold text-2xl md:text-4xl mb-10 text-center font-greatvibes">
+      <h3 className="text-black text-2xl md:text-4xl mb-10 text-center font-roboto-flex">
         Restaurant
       </h3>
 
@@ -26,7 +26,7 @@ const RestaurantSection = () => {
 
         {/* Text Section */}
         <div className="w-full md:w-1/2 text-center md:text-left h-full flex flex-col justify-between">
-          <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-6">
+          <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-6 font-lora">
             Indulge in a delightful culinary experience at our in-house
             restaurant. Savor traditional Nepali Thakali dishes, freshly
             prepared with locally sourced ingredients. From our famous apple

@@ -10,7 +10,7 @@ const RoomsPage = () => (
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <h2 className="text-5xl font-bold text-center mb-16 font-greatvibes">Our Rooms</h2>
+      <h2 className="text-5xl text-center mb-16 font-roboto-flex">Our Rooms</h2>
       <div className="space-y-16">
         {[
           { id: 1, img: DeluxeRoom, title: 'Deluxe Suite', desc: 'Experience luxury and comfort in our deluxe suite.' },
@@ -35,8 +35,8 @@ const RoomsPage = () => (
               </div>
               {/* Room Details */}
               <div className="p-4 flex flex-col justify-center lg:w-1/2">
-                <h3 className="text-xl font-bold mb-2">{room.title}</h3>
-                <p className="text-gray-600">{room.desc}</p>
+                <h3 className="text-xl font-bold mb-2 font-roboto-flex">{room.title}</h3>
+                <p className="text-gray-600 font-lora">{room.desc}</p>
               </div>
             </div>
           </motion.div>

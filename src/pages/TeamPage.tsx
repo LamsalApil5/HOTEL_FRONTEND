@@ -15,9 +15,9 @@ const TeamPage: React.FC = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto ">
+    <div className="max-w-7xl mx-auto mb-6 md:mb-32">
       <motion.h1
-        className="text-5xl md:text-5xl  font-bold text-center text-gray-800 mb-8 font-greatvibes py-8"
+        className="text-5xl md:text-5xl text-center text-gray-800 mb-8 font-roboto-flex py-8"
         initial={{ opacity: 0 }} // Start invisible
         whileInView={{ opacity: 1 }} // Fade in when in view
         transition={{ duration: 0.5 }} // Duration of the fade-in effect
@@ -58,11 +58,11 @@ const TeamMemberCard: React.FC<{ member: TeamMember; reverse: boolean }> = ({
         />
       </div>
       <div className="flex-1 text-center md:text-left">
-        <h2 className="text-lg md:text-xl font-semibold text-gray-800">
+        <h2 className="text-lg md:text-xl font-roboto-flex text-gray-800">
           {member.name}
         </h2>
-        <p className="text-sm md:text-base text-gray-500">{member.position}</p>
-        <p className="text-sm md:text-base text-gray-600 mt-2">{member.bio}</p>
+        <p className="text-sm md:text-base text-gray-500 font-lora">{member.position}</p>
+        <p className="text-sm md:text-base text-gray-600 mt-2 font-lora">{member.bio}</p>
       </div>
     </div>
   );

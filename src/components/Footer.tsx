@@ -17,7 +17,7 @@ const Footer = () => {
               className="h-24 w-24 flex justify-center items-center object-contain"
             />
             <div>
-              <h3 className="font-bold text-2xl text-gray-700 font-greatvibes">
+              <h3 className=" text-3xl text-gray-700 font-roboto-flex">
                 Paradise Guest House
               </h3>
               <p className="font-normal text-sm">Marpha - Mustang - Nepal</p>
@@ -26,13 +26,21 @@ const Footer = () => {
 
           {/* Quick Links Section */}
           <div className="flex flex-col items-center justify-start">
-            <h3 className="text-black font-bold">Quick Link</h3>
+            <h3 className="text-black font-roboto-flex ">Quick Link</h3>
             <Link to="/" className="hover:text-yellow-500">
               <Button
                 variant="ghost"
                 className="text-sm text-gray-600 hover:bg-yellow-50 rounded-lg"
               >
                 Home
+              </Button>
+            </Link>
+            <Link to="/locals" className="hover:text-yellow-500">
+              <Button
+                variant="ghost"
+                className="text-sm text-gray-600 hover:bg-yellow-50 rounded-lg"
+              >
+                Our Local
               </Button>
             </Link>
             <Link to="/rooms" className="hover:text-yellow-500">
@@ -72,7 +80,7 @@ const Footer = () => {
           {/* About Us Section */}
           <div className="text-center md:text-right text-gray-500 ">
             <motion.h3
-              className="text-black font-bold text-md"
+              className="text-black font-roboto-flex text-md"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}
@@ -80,7 +88,7 @@ const Footer = () => {
               About Us
             </motion.h3>
             <motion.p
-              className="text-center md:text-right text-gray-500 text-sm"
+              className="text-center md:text-right text-gray-500 text-sm font-lora"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 2 }}

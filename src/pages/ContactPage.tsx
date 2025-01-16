@@ -8,7 +8,7 @@ import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa"; // Import 
 const ContactPage = () => {
   return (
     <div className="mx-1 lg:mx-36 my-8 lg:mt-0">
-      <h1 className="text-5xl font-semibold text-center text-gray-800 font-greatvibes py-8">
+      <h1 className="text-5xl text-center text-gray-800 font-roboto-flex py-8">
         Contact Us
       </h1>
 
