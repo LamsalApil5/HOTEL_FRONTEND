@@ -3,23 +3,31 @@ import { useState, useEffect } from "react";
 const products = [
   {
     id: 1,
-    name: "Handcrafted Wooden Bowl",
+    name: "Apple Juice",
     description:
-      "A beautiful bowl made from locally sourced wood, perfect for serving or decor.",
+      "Made from the freshest apples grown in our orchards, our apple juice is a refreshing treat with no added preservatives. It’s the pure taste of Marpha’s best apples.",
     image: "https://picsum.photos/200?random=1", // Replace with your local image path
   },
   {
     id: 2,
-    name: "Handwoven Basket",
-    description: "Durable and eco-friendly baskets made by local artisans.",
-    image: "https://picsum.photos/200?random=1",
+    name: "Plum Wine",
+    description:
+      "Our locally produced plum wine is crafted using the finest plums and apples from our farms. This smooth, fruity beverage offers a unique taste with a hint of Marpha’s terroir.",
+    image: "https://picsum.photos/200?random=2", // Replace with your local image path
   },
   {
     id: 3,
-    name: "Ceramic Vase",
+    name: "Apple Brandy",
     description:
-      "A stunning ceramic vase with intricate designs, ideal for flowers or as a statement piece.",
-    image: "https://picsum.photos/200?random=1",
+      "Distilled to perfection, our apple brandy reflects the craftsmanship passed down through generations. It’s a full-bodied drink that brings out the true taste of Marpha’s apple-growing tradition.",
+    image: "https://picsum.photos/200?random=3", // Replace with your local image path
+  },
+  {
+    id: 4,
+    name: "Apple Cider",
+    description:
+      "Our apple cider is fermented to create a crisp, tangy beverage with the perfect balance of sweetness and acidity. It offers a refreshing effervescence, bringing out the natural flavors of Marpha apples.",
+    image: "https://picsum.photos/200?random=4", // Replace with your local image path
   },
 ];
 
