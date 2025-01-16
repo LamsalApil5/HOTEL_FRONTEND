@@ -25,7 +25,7 @@ const RestaurantSection = () => {
         </div>
 
         {/* Text Section */}
-        <div className="w-full md:w-1/2 text-center md:text-left h-full flex flex-col justify-between">
+        <div className="w-auto md:w-1/2 text-center md:text-left h-full flex flex-col justify-between mb-16">
           <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-6 font-lora">
             Indulge in a delightful culinary experience at our in-house
             restaurant. Savor traditional Nepali Thakali dishes, freshly

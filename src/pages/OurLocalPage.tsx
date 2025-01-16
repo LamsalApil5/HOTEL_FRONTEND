@@ -83,7 +83,7 @@ const OurLocalPage = () => {
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="absolute inset-0 bg-black opacity-40"></div>
-        <h1 className="relative text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-roboto-flex text-center pt-24 sm:pt-32">
+        <h1 className="relative text-brown text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-roboto-flex text-center pt-24 sm:pt-32">
           Welcome to Paradise Guest House Local
         </h1>
 

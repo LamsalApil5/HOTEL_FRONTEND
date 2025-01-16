@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa"; // Import icons
+import FAQ from "./Home/FAQ";
 
 const ContactPage = () => {
   return (
@@ -12,11 +13,11 @@ const ContactPage = () => {
         Contact Us
       </h1>
 
-      <div className="flex items-center justify-center px-6 py-6">
+      <div className="flex items-center justify-center px-2 md:px-6 py-2 md:py-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-7xl">
           {/* Contact Form Section */}
           <motion.form
-            className="w-full max-w-md space-y-6 bg-white p-8 duration-300"
+            className="w-full max-w-md space-y-6 bg-white p-3 md:p-8 duration-300"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
@@ -64,7 +65,7 @@ const ContactPage = () => {
           </motion.form>
 
           {/* Contact Details and Map Section */}
-          <div className="w-full space-y-6 bg-white p-8 duration-300">
+          <div className="w-full space-y-6 bg-white p-3 md:p-8 duration-300">
             {/* Social Media Links Section */}
             <div className="flex space-x-6 text-4xl">
               {/* WhatsApp */}
@@ -132,6 +133,8 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+
+      <FAQ/>
     </div>
   );
 };
