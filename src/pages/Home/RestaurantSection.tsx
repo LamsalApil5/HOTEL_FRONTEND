@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import restaurant from "../../image/resturant.jpg"
 const RestaurantSection = () => {
   return (
     <motion.div
@@ -18,7 +18,7 @@ const RestaurantSection = () => {
         {/* Image Section */}
         <div className="w-full md:w-1/2 mb-6 md:mb-0 h-auto relative group">
           <img
-            src="https://picsum.photos/200?random=1"
+            src={restaurant}
             alt="Restaurant"
             className="rounded-lg shadow-lg w-full h-auto object-cover transition-transform transform group-hover:scale-105 group-hover:shadow-2xl group-hover:opacity-70"
           />
