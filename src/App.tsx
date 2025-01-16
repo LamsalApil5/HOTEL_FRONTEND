@@ -18,6 +18,7 @@ function App() {
       const titles: Record<string, string> = {
         '/': 'Welcome to Paradise Guest House',
         '/rooms': 'Our Rooms - Paradise Guest House',
+        '/locals': 'Our Local - Paradise Guest House',
         '/gallery': 'Gallery - Paradise Guest House',
         '/teams': 'Our Team - Paradise Guest House',
         '/contact': 'Contact Us - Paradise Guest House',

@@ -11,7 +11,7 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="top-0 z-50 bg-transparent mb-4 pt-4">
+    <header className="top-0 z-50 bg-none mb-4 pt-4">
       <div className="container mx-auto px-8 lg:px-36">
         <nav className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -67,7 +67,7 @@ const Header = () => {
                   variant={isActive("/") ? "default" : "ghost"}
                   className={`${
                     isActive("/")
-                      ? "bg-yellow-50 text-black "
+                      ? "bg-yellow-50 text-black"
                       : "hover:bg-yellow-50"
                   } rounded-lg hover:bg-yellow-50`}
                 >

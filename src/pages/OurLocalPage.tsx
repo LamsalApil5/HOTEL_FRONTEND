@@ -47,7 +47,7 @@ const mockData: Data = {
     "https://picsum.photos/200?random=1",
     "https://picsum.photos/200?random=2",
     "https://picsum.photos/200?random=3",
-  ],  
+  ],
   history:
     "Marpha, known as the Apple Capital of Nepal, has a rich history of apple cultivation that dates back generations. The unique climate and soil composition in this region make it the ideal place for growing apples. The apples grown here are naturally sweeter, crisper, and juicier, and have become a symbol of Marpha's agricultural heritage.",
 };
@@ -58,9 +58,8 @@ const OurLocalPage = () => {
 
   useEffect(() => {
     // Simulate fetching data with setTimeout (e.g., from an API)
-    setTimeout(() => {
-      setData(mockData);
-    }, 1000);
+
+    setData(mockData);
 
     const changeBackground = () => {
       const nextImageIndex =
@@ -99,12 +98,14 @@ const OurLocalPage = () => {
         <h2 className="text-3xl text-center font-roboto-flex text-gray-800">
           The History of Marpha
         </h2>
-        <p className="text-lg text-gray-700 mt-6 text-center font-lora">{data.history}</p>
+        <p className="text-lg text-gray-700 mt-6 text-center font-lora">
+          {data.history}
+        </p>
       </div>
-      
+
       {/* Products Section */}
       <div className="py-8 px-6 md:px-32">
-      <h2 className="text-3xl text-center font-roboto-flex text-gray-800 pb-8">
+        <h2 className="text-3xl text-center font-roboto-flex text-gray-800 pb-8">
           Our Marpha Special
         </h2>
         {data.products.map((product, index) => (
