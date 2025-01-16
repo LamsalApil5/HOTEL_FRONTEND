@@ -1,3 +1,4 @@
+import FAQ from "./Home/FAQ";
 import HeroSection from "./Home/HeroSection";
 import Location from "./Home/HLocation";
 import RestaurantSection from "./Home/RestaurantSection";
@@ -12,6 +13,7 @@ const HomePage = () => {
       <RoomsSection />
       <WhyChooseSection />
       <RestaurantSection/>
+      <FAQ/>
       {/* <GoogleReviews placeId="ChIJ9RthOy8PvjkRyN00iAcRiQA" apiKey="AIzaSyBNWSLLP2-ULLvQBGkzwb2WFy2-SiDZEgs" /> */}
     </div>
   );

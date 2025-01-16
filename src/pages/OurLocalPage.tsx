@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import FAQ from "./Home/FAQ";
 interface Product {
   id: number;
   name: string;
@@ -131,7 +130,6 @@ const OurLocalPage = () => {
           </div>
         ))}
       </div>
-      <FAQ />
     </div>
   );
 };
