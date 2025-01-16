@@ -1,4 +1,6 @@
+import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import AppleHist from "../image/History.png"
 interface Product {
   id: number;
   name: string;
@@ -98,6 +100,19 @@ const OurLocalPage = () => {
         <h2 className="text-3xl text-center font-roboto-flex text-gray-800">
           The History of Marpha
         </h2>
+        <motion.img
+        src={AppleHist}
+        alt="Map of Marpha"
+        className="mx-auto w-full max-w-lg sm:max-w-sm md:max-w-lg lg:max-w-lg h-auto"
+        initial={{ scale: 0.8, opacity: 0 }} // Start smaller and hidden
+        animate={{ scale: 1, opacity: 1 }} // Grow to full size and become visible
+        transition={{
+          type: "spring", // Adds a spring animation
+          stiffness: 80, // Adjusts the spring stiffness
+          damping: 10, // Adjusts the damping effect
+          duration: 0.8, // Time to complete the animation
+        }}
+      />
         <p className="text-lg text-gray-700 mt-6 text-center font-lora">
           {data.history}
         </p>
