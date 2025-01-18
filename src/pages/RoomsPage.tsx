@@ -2,7 +2,10 @@ import { motion } from 'framer-motion';
 import StandardRoom from '../image/Standard Room.jpg'
 import DeluxeRoom from '../image/Deluxe Suite.jpg'
 import PersidentialRoom from '../image/Presidential Suite.jpg'
+import AboutAccommodations from './Home/AboutAccommodations';
 const RoomsPage = () => (
+  <>
+  <AboutAccommodations/>
   <div className="container mx-auto px-4 py-8">
     <motion.section
       className="mb-16"
@@ -44,6 +47,7 @@ const RoomsPage = () => (
       </div>
     </motion.section>
   </div>
+  </>
 );
 
 export default RoomsPage;
