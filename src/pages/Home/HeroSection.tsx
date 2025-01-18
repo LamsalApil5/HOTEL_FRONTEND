@@ -18,7 +18,7 @@ const HeroSection = () => {
       style={{ backgroundImage: `url(${imgHotel})` }}
     >
       {/* Brown shadow overlay */}
-      <div className="absolute inset-0 bg-gray-50 opacity-50 hover:bg-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-white to-gray-100 opacity-30 transition-opacity"></div>
 
       {/* Left Section: Text Overlay */}
       <div className="relative px-4 lg:px-36 w-full">
@@ -47,7 +47,7 @@ const HeroSection = () => {
           Guesthouse & Coffee Shop
         </motion.h1>
         <motion.p
-          className="text-lg lg:text-2xl mb-4 font-lora font-bold"
+          className="text-lg lg:text-2xl mb-4 font-lora font-bold "
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}

@@ -12,7 +12,7 @@ module.exports = {
   	},
   	extend: {
   		colors: {
-			brown: '#A52A2A',
+			brown: '#B5651D',
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
