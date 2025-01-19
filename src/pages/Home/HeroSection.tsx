@@ -18,10 +18,11 @@ const HeroSection = () => {
       style={{ backgroundImage: `url(${imgHotel})` }}
     >
       {/* Brown shadow overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-white to-gray-100 opacity-30 transition-opacity"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-white to-gray-100 opacity-20 transition-opacity"></div>
 
       {/* Left Section: Text Overlay */}
-      <div className="relative px-4 lg:px-36 w-full">
+      <div className="relative px-4 lg:px-36 bg-gray-50 bg-opacity-30">
+
         {/* <motion.h1
           className="text-5xl lg:text-6xl font-roboto-flex mb-6 text-white"
           initial={{ opacity: 0, y: -20 }}
@@ -31,7 +32,7 @@ const HeroSection = () => {
           Welcome to
         </motion.h1> */}
         <motion.h1
-          className="text-5xl lg:text-6xl font-roboto-flex mb-2 md:mb-6 font-semibold text-wrap text-brown"
+          className="text-5xl lg:text-6xl font-roboto-flex mb-2 md:mb-6 font-semibold text-wrap text-yellow-900"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -39,7 +40,7 @@ const HeroSection = () => {
           Paradise 
         </motion.h1>
         <motion.h1
-          className="text-5xl lg:text-5xl font-roboto-flex mb-2 md:mb-6 font-semibold text-wrap text-brown"
+          className="text-5xl lg:text-5xl font-roboto-flex mb-2 md:mb-6 font-semibold text-wrap text-yellow-900"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}

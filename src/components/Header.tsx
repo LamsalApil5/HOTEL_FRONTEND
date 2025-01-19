@@ -19,7 +19,7 @@ const Header = () => {
             to="/"
             className="flex items-end space-x-4 text-3xl font-extrabold text-gray-800 font-greatvibes"
           >
-            <img src={logo} alt="Paradise GuestHouse Logo" className="h-16" />
+            <img src={logo} alt="Paradise GuestHouse Logo" className="h-16" onClick={() => setIsMenuOpen(false)} />
           </Link>
 
           {/* Mobile Menu Toggle Button */}

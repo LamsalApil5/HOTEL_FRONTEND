@@ -42,7 +42,7 @@ const RoomsSection = () => (
                 />
               </div>
               {/* Room Details */}
-              <div className="w-full lg:w-1/2 p-4 flex flex-col justify-start">
+              <div className="w-full lg:w-1/2 px-4 flex flex-col justify-start">
                 <h3 className="text-xl font-bold mb-2 font-roboto-flex">
                   {room.title}
                 </h3>
