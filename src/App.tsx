@@ -66,7 +66,7 @@ function App() {
             <div className="fixed bottom-4 left-0 right-0 z-50 flex justify-between items-center px-4">
               {/* Left Arrow Button */}
               <button
-                className="p-3 rounded-full bg-blue-600 text-white shadow-lg hover:bg-blue-700"
+                className="p-3 rounded-full bg-gray-400 text-white shadow-lg hover:bg-gray-700"
                 onClick={() => window.scrollTo(0, 0)} // Scroll to the top
               >
                 <FaArrowAltCircleUp size={24} />

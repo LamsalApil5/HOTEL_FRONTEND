@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import logo from "../image/Logo.png";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
               className="h-24 w-24 flex justify-center items-center object-contain"
             />
             <div>
-              <h3 className=" text-3xl text-gray-700 font-roboto-flex">
+              <h3 className="text-3xl text-gray-700 font-roboto-flex">
                 Paradise Guest House
               </h3>
               <p className="font-normal text-sm">Marpha - Mustang - Nepal</p>
@@ -26,7 +27,7 @@ const Footer = () => {
 
           {/* Quick Links Section */}
           <div className="flex flex-col items-center justify-start">
-            <h3 className="text-black font-roboto-flex ">Quick Link</h3>
+            <h3 className="text-black font-roboto-flex">Quick Link</h3>
             <Link to="/" className="hover:text-yellow-500">
               <Button
                 variant="ghost"
@@ -77,40 +78,54 @@ const Footer = () => {
             </Link>
           </div>
 
-          {/* About Us Section */}
-          <div className="text-center md:text-right text-gray-500 ">
+          {/* Contact Link Section */}
+          <div className="text-center md:text-right text-gray-500">
             <motion.h3
-              className="text-black font-roboto-flex text-md"
+              className="text-black font-roboto-flex text-md mb-3"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}
             >
-              About Us
+              Contact Us
             </motion.h3>
-            <motion.p
-              className="text-center md:text-right text-gray-500 text-sm font-lora"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 2 }}
-            >
-              Nestled in the heart of the Himalayas, our family-owned hotel has
-              been a cherished retreat since 1979. Managed by the second
-              generation, we offer a blend of authenticity and luxury.
-              <br />
-              Our farm-to-table philosophy ensures every meal is made with
-              fresh, organic ingredients from our backyard. Guests rave about
-              our Thakali dishes and Apple Crumble made with handpicked apples
-              from our orchard. We’re also the only place in the village serving
-              freshly brewed coffee.
-              <br />
-              Join us for a stay where tradition and hospitality meet, creating
-              unforgettable memories.
-            </motion.p>
+            <p>
+              <a href="mailto:riabista27@gmail.com">
+                riabista27@gmail.com
+              </a>
+            </p>
+            <p>Marpha, Mustang, Nepal</p>
+            <p>+977 9805839753, 9842850833</p>
+              <motion.h3
+                className="text-blue-600 font-roboto-flex text-md mt-4 mb-2"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+              >
+                Follow Us
+              </motion.h3>
+            <div className="flex justify-center md:justify-end space-x-4 ">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800"
+              >
+                <FaFacebook className="w-6 h-6" />
+              </a>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-pink-600 hover:text-pink-800"
+              >
+                <FaInstagram className="w-6 h-6" />
+              </a>
+            </div>
           </div>
         </div>
 
         {/* Copyright */}
-        <div className="border-t pt-3 mt-6  text-center text-sm text-gray-500">
+        <div className="border-t pt-3 mt-6 text-center text-sm text-gray-500">
           © 2023 Paradise Guest House. All rights reserved.
         </div>
       </div>
