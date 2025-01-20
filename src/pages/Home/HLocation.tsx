@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"; // Import motion from framer-motion
-import map from "../../image/map.png";
+import map from "../../image/Location.png";
 
 const Location = () => {
   return (
@@ -16,7 +16,7 @@ const Location = () => {
       <motion.img
         src={map}
         alt="Map of Marpha"
-        className="mx-auto w-full max-w-xs sm:max-w-72 md:max-w-md lg:max-w-sm h-auto"
+        className="mx-auto w-full max-w-2xl sm:max-w-xl md:max-w-lg lg:max-w-lg h-auto"
         initial={{ scale: 0.8, opacity: 0 }} // Start smaller and hidden
         animate={{ scale: 1, opacity: 1 }} // Grow to full size and become visible
         transition={{

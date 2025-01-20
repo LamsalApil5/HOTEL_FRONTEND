@@ -5,6 +5,7 @@ import RoomsSection from "./Home/RoomsSection";
 import WhyChooseSection from "./Home/WhyChooseSection";
 import SEO from "./SEO/SEO";
 import logo from "../image/Logo.png"
+import GoogleReviews from "@/components/googleReview";
 const HomePage = () => {
   return (
     <>
@@ -23,7 +24,7 @@ const HomePage = () => {
         <RoomsSection />
         <WhyChooseSection />
         <RestaurantSection />
-        {/* <GoogleReviews placeId="ChIJ9RthOy8PvjkRyN00iAcRiQA" apiKey="AIzaSyBNWSLLP2-ULLvQBGkzwb2WFy2-SiDZEgs" /> */}
+        <GoogleReviews placeId="ChIJ9RthOy8PvjkRyN00iAcRiQA" apiKey="AIzaSyBNWSLLP2-ULLvQBGkzwb2WFy2-SiDZEgs" />
       </div>
     </>
   );
