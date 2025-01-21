@@ -6,6 +6,7 @@ import {
   FaUtensils,
   FaSmile,
   FaMapMarkerAlt,
+  FaShoppingBasket,
 } from "react-icons/fa"; // Import icons
 
 const WhyChooseSection: React.FC = () => {
@@ -76,6 +77,16 @@ const WhyChooseSection: React.FC = () => {
             <p>
               Situated in a serene area yet close to local attractions,
               shopping, and entertainment.
+            </p>
+          </div>
+        </li>
+        <li className="flex flex-col items-center text-center space-y-4">
+          <FaShoppingBasket className="text-yellow-500 text-7xl" />
+          <div>
+            <strong>Farm-to-Table Experience:</strong>
+            <p>
+              Enjoy fresh, organic ingredients sourced directly from our local
+              farm, ensuring a wholesome dining experience.
             </p>
           </div>
         </li>
