@@ -42,7 +42,7 @@ export function TestimonialSection() {
   return (
     <section className="py-8 md:py-20 bg-none ">
       <div className="container px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">What Our Customers Say</h2>
+        <h2 className="text-3xl font-roboto-flex text-center mb-8">What Our Customers Say</h2>
         <div className="flex items-center justify-center">
           <Button variant="outline" size="icon" onClick={prevTestimonial} className="mr-4 bg-none border-none">
             <ChevronLeft className="h-8 w-8" />
