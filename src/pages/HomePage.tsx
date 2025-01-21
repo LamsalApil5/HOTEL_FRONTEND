@@ -1,11 +1,10 @@
 import HeroSection from "./Home/HeroSection";
 import Location from "./Home/HLocation";
-import RestaurantSection from "./Home/RestaurantSection";
-import RoomsSection from "./Home/RoomsSection";
 import WhyChooseSection from "./Home/WhyChooseSection";
 import SEO from "./SEO/SEO";
-import logo from "../image/Logo.png"
-import GoogleReviews from "@/components/googleReview";
+import logo from "../image/Logo.png";
+import Services from "./Home/Services";
+import { TestimonialSection } from "./Home/TestimonialSection";
 const HomePage = () => {
   return (
     <>
@@ -14,17 +13,16 @@ const HomePage = () => {
         description="Discover Paradise Guest House, your perfect getaway destination offering luxurious rooms, breathtaking views, and exceptional hospitality."
         keywords="Paradise Guest House, luxury guest house, vacation, holiday stay, accommodations"
         author="Paradise Guest House"
-        image={logo} // 
-        url="https://paradiseguesthouse.vercel.app"
+        image={logo}
+        url="https://paradiseguesthouse.vercel.app/"
         twitterCardType="summary_large_image"
       />
-      <div className="min-h-screen">
+      <div className="min-h-screen px-0 lg:px-36">
         <HeroSection />
         <Location />
-        <RoomsSection />
+        <Services />
         <WhyChooseSection />
-        <RestaurantSection />
-        <GoogleReviews placeId="ChIJ9RthOy8PvjkRyN00iAcRiQA" apiKey="AIzaSyBNWSLLP2-ULLvQBGkzwb2WFy2-SiDZEgs" />
+        <TestimonialSection />
       </div>
     </>
   );

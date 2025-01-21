@@ -11,12 +11,12 @@ import {
 const WhyChooseSection: React.FC = () => {
   return (
     <motion.div
-      className="bg-yellow-50 p-8 mt-8 md:p-12 md:mt-8 shadow-md"
+      className=" p-8 mt-8 md:p-12 md:mt-8"
       initial={{ opacity: 0 }} // Initial opacity is 0 (invisible)
       whileInView={{ opacity: 1 }} // Change opacity to 1 when the component is in view
       transition={{ duration: 0.5 }} // Duration of the fade-in effect
     >
-      <h2 className="text-3xl text-center text-black mb-6 font-roboto-flex">
+      <h2 className="text-3xl text-center text-black mb-6 md:mb-12 font-roboto-flex ">
         Why Choose Paradise Guest House
       </h2>
       <ul className="list-none grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-600 font-lora">
