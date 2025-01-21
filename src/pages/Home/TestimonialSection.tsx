@@ -5,18 +5,18 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    content: "This product has revolutionized our workflow. It's intuitive, powerful, and a joy to use every day.",
+    name: "Ethan",
+    content: "A delightful choice in the charming town of Marpha. A quiet night’s rest in a clean room with delicious food and a most welcoming and kind family. Also, don’t miss the homemade treats, such as the jams, juices, wines, ciders and brandy (especially the apricot one). Oh and there's an espresso machine!",
   },
   {
-    name: "Michael Chen",
+    name: "Dinesh Giri",
     content:
-      "I've tried many similar tools, but this one stands out. The attention to detail and user experience is unmatched.",
+      "Best rooms at affordable price & And handsdown the best coffee in marpha only available in  village 🩶 …",
   },
   {
-    name: "Emily Rodriguez",
+    name: "Morgan Welch",
     content:
-      "As a freelancer, efficiency is key. This tool has saved me countless hours and helped me deliver better results to my clients.",
+      "We stopped at a few different places to check pricing. This place was a very good deal, and to top it off has a very nice man as host. Pretty standard beds, nice hot showers, and good food to wind down. Wound stay again if passing through. Tip: apple brandy is a major export out of Marpha, and it is much cheaper than ordering beer. Give the apricot brandy a try as well.",
   },
 ]
 
