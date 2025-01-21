@@ -11,7 +11,7 @@ const HomePage = () => {
       <SEO
         title="Welcome to Paradise Guest House"
         description="Discover Paradise Guest House, your perfect getaway destination offering luxurious rooms, breathtaking views, and exceptional hospitality."
-        keywords="Paradise Guest House, luxury guest house, vacation, holiday stay, accommodations"
+        keywords="Paradise Guest House, luxury guest house, vacation Nepal, holiday in Nepal, accommodations, Marpha Guest House, hotel Mustang, guest hotel, family hotel, chilling hotel, Nepal mountain hotel, Himalayan guest house, Mustang mountain stay, cozy hotel in Nepal, boutique mountain hotel, trekking accommodations Nepal, scenic hotel Nepal, eco-friendly mountain lodge, adventure stay Mustang, mountain retreat Nepal, nature hotel Nepal"
         author="Paradise Guest House"
         image={logo}
         url="https://paradiseguesthouse.vercel.app"
