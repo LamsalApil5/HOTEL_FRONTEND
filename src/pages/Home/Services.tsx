@@ -1,7 +1,7 @@
 import { BedDouble, Coffee, Wifi, Utensils } from "lucide-react";
 import { motion } from "framer-motion";
 import Guesthouse from "../../image/Accommodations/Accomodation2.jpg";
-import coffeeShop from "../../image/Hero.png";
+import coffeeShop from "../../image/Hero.jpeg";
 
 const Services = () => {
   return (

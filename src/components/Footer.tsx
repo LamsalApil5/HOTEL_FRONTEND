@@ -3,7 +3,9 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import logo from "../image/Logo.png";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
-
+import google from "../image/Footer/Google.png";
+import booking from "../image/Footer/Booking.png";
+import tripAdvisor from "../image/Footer/TripAdvisor.png";
 const Footer = () => {
   return (
     <>
@@ -22,12 +24,40 @@ const Footer = () => {
                 Contact Us
               </motion.h3>
               <p>
-                <a href="mailto:riabista27@gmail.com">riabista27@gmail.com</a>
+                <a
+                  href="mailto:riabista27@gmail.com"
+                  className="hover:underline text-gray-600"
+                >
+                  riabista27@gmail.com
+                </a>
               </p>
-              <p>Marpha, Mustang, Nepal</p>
-              <p>+977 9805839753, 9842850833</p>
+              <p>
+                <a
+                  href="https://maps.app.goo.gl/m838CYzZaq7Xy2DK7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline text-gray-600"
+                >
+                  Marpha, Mustang, Nepal
+                </a>
+              </p>
+              <p>
+                <a
+                  href="tel:+9779805839753"
+                  className="hover:underline text-gray-600"
+                >
+                  +977 9805839753
+                </a>
+                ,{" "}
+                <a
+                  href="tel:+9779842850833"
+                  className="hover:underline text-gray-600"
+                >
+                  9842850833
+                </a>
+              </p>
               <motion.h3
-                className="text-blue-600 font-roboto-flex text-md mt-4 mb-2"
+                className="text-black font-roboto-flex text-md mt-4 mb-2"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1 }}
@@ -126,30 +156,48 @@ const Footer = () => {
               </div>
 
               {/* Logos Section */}
-              <div className="flex justify-center gap-6 mt-6">
-                <img
-                  src="https://picsum.photos/200?random=1"
-                  alt="Booking.com Logo"
-                  className="h-12 w-auto"
-                />
-                <img
-                  src="https://picsum.photos/200?random=2"
-                  alt="Google Maps Logo"
-                  className="h-12 w-auto"
-                />
-                <img
-                  src="https://picsum.photos/200?random=5"
-                  alt="Award Logo"
-                  className="h-12 w-auto"
-                />
+              <div className="flex justify-end items-end gap-6 mt-6">
+                <a
+                  href="https://www.google.com/maps/place/Paradise+Guest+House+and+Coffee+Shop+-+Hotel+in+Marpha,Mustang/@28.7520432,83.6861221,17z/data=!4m8!3m7!1s0x39be0f2f3b611bf5:0x8911078834ddc8!8m2!3d28.7520432!4d83.6861221!9m1!1b1!16s%2Fg%2F11c1w5h6g1?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={google}
+                    alt="Google Logo"
+                    className="h-12 w-12 object-contain"
+                  />
+                </a>
+                <a
+                  href="https://www.booking.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={booking}
+                    alt="Booking.com Logo"
+                    className="h-12 w-12 object-contain"
+                  />
+                </a>
+                <a
+                  href="https://www.tripadvisor.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={tripAdvisor}
+                    alt="TripAdvisor Logo"
+                    className="h-12 w-12 object-contain"
+                  />
+                </a>
               </div>
             </div>
           </div>
           {/* Copyright */}
         </div>
-      <div className="border-t pt-3 mt-6 mb-2 text-center text-sm text-gray-500 bg-white">
-        © 2023 Paradise Guest House. All rights reserved.
-      </div>
+        <div className="border-t pt-3 mt-6 mb-2 text-center text-sm text-gray-500 bg-white">
+          © 2023 Paradise Guest House. All rights reserved.
+        </div>
       </footer>
     </>
   );
