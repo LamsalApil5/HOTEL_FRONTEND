@@ -149,7 +149,7 @@ const Footer = () => {
                   <h3 className="text-3xl text-gray-700 font-roboto-flex">
                     Paradise Guest House & Coffee Shop
                   </h3>
-                  <p className="font-normal text-sm">
+                  <p className="font-normal text-sm text-gray-600">
                     Marpha - Mustang - Nepal
                   </p>
                 </div>

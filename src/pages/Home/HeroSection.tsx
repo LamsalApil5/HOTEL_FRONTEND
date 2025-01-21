@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="relative flex flex-col lg:flex-row items-center justify-between">
       <div className="w-full lg:w-1/2 flex flex-col items-center justify-center text-center px-4 mb-8 lg:mb-0 order-2 lg:order-1">
-        <div className="relative z-10 mt-8 md:mt-0">
+        <div className="relative z-10 mt-0 md:mt-0">
           <motion.h1
             className="text-5xl lg:text-6xl font-roboto-flex mb-6 text-black"
             initial={{ opacity: 0, y: -20 }}
@@ -25,8 +25,12 @@ const HeroSection = () => {
           </motion.p>
         </div>
       </div>
-      <div className="w-full lg:w-1/2 flex items-center justify-center h-full bg-cover bg-center order-1 lg:order-2 pt-8">
-        <img src={imgHotel}></img>
+      <div className="w-full lg:w-1/2 flex items-center justify-center h-full bg-cover bg-center order-1 lg:order-2">
+        <img
+          src={imgHotel}
+          className="rounded-lg shadow-xl shadow-gray-500/50"
+          alt="Hotel"
+        />
       </div>
     </div>
   );
