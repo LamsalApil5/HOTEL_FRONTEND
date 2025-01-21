@@ -14,7 +14,7 @@ const HomePage = () => {
         keywords="Paradise Guest House, luxury guest house, vacation, holiday stay, accommodations"
         author="Paradise Guest House"
         image={logo}
-        url="https://paradiseguesthouse.vercel.app/"
+        url="https://paradiseguesthouse.vercel.app"
         twitterCardType="summary_large_image"
       />
       <div className="min-h-screen px-0 lg:px-36">
