@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion"; // Import motion from framer-motion
-import { FaBed, FaMountain, FaShoppingBasket } from "react-icons/fa"; // Import icons
+import { FaBed, FaMountain, FaShoppingBasket, FaCoffee } from "react-icons/fa"; // Import icons, including FaCoffee
 
 const WhyChooseSection: React.FC = () => {
   return (
@@ -13,8 +13,8 @@ const WhyChooseSection: React.FC = () => {
       <h2 className="text-3xl text-center text-black mb-6 md:mb-12 font-roboto-flex ">
         Why Choose Us
       </h2>
-      <ul className="list-none grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-600 font-lora">
-        {/* Item 1 */}
+      <ul className="list-none grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-gray-600 font-lora">
+        {/* Cozy Rooms */}
         <li className="flex flex-col items-center text-center space-y-4">
           <FaBed className="text-yellow-600 text-7xl" />
           <div>
@@ -46,6 +46,18 @@ const WhyChooseSection: React.FC = () => {
             <p>
               Immerse yourself in the unique culture and traditions of Marpha
               village.
+            </p>
+          </div>
+        </li>
+
+        {/* Local Organic Coffee */}
+        <li className="flex flex-col items-center text-center space-y-4">
+          <FaCoffee className="text-yellow-600 text-7xl" />
+          <div>
+            <strong>Local Organic Coffee</strong>
+            <p>
+              Delight in the rich aroma and taste of freshly brewed organic
+              coffee, a specialty of Marpha.
             </p>
           </div>
         </li>
