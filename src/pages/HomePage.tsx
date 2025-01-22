@@ -3,8 +3,9 @@ import Location from "./Home/HLocation";
 import WhyChooseSection from "./Home/WhyChooseSection";
 import SEO from "./SEO/SEO";
 import logo from "../image/Logo.png";
-import Services from "./Home/Services";
 import { TestimonialSection } from "./Home/TestimonialSection";
+import ThingsToDo from "./Home/ThingsToDo";
+import { DelicaciesSection } from "./Home/DelicaciesSection";
 const HomePage = () => {
   return (
     <>
@@ -20,8 +21,9 @@ const HomePage = () => {
       <div className="min-h-screen px-0 lg:px-36">
         <HeroSection />
         <Location />
-        <Services />
         <WhyChooseSection />
+        <ThingsToDo/>
+        <DelicaciesSection/>
         <TestimonialSection />
       </div>
     </>

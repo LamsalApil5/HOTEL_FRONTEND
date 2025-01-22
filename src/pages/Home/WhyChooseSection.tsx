@@ -1,13 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion"; // Import motion from framer-motion
-import {
-  FaBed,
-  FaMountain,
-  FaUtensils,
-  FaSmile,
-  FaMapMarkerAlt,
-  FaShoppingBasket,
-} from "react-icons/fa"; // Import icons
+import { FaBed, FaMountain, FaShoppingBasket } from "react-icons/fa"; // Import icons
 
 const WhyChooseSection: React.FC = () => {
   return (
@@ -18,75 +11,41 @@ const WhyChooseSection: React.FC = () => {
       transition={{ duration: 0.5 }} // Duration of the fade-in effect
     >
       <h2 className="text-3xl text-center text-black mb-6 md:mb-12 font-roboto-flex ">
-        Why Choose Paradise Guest House
+        Why Choose Us
       </h2>
       <ul className="list-none grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-600 font-lora">
         {/* Item 1 */}
         <li className="flex flex-col items-center text-center space-y-4">
-          <FaBed className="text-yellow-500 text-7xl" />
+          <FaBed className="text-yellow-600 text-7xl" />
           <div>
-            <strong>Comfortable Rooms:</strong>
+            <strong>Cozy Rooms:</strong>
             <p>
-              Our rooms are designed for maximum comfort and relaxation,
-              equipped with modern amenities.
+              Traditionally crafted, comfortable rooms with attached bathrooms,
+              hot showers, and complimentary Wi-Fi to ensure a relaxing stay.
             </p>
           </div>
         </li>
 
-        {/* Scenic Views */}
+        {/* Farm-to-Table Experience */}
         <li className="flex flex-col items-center text-center space-y-4">
-          <FaMountain className="text-yellow-500 text-7xl" />
+          <FaShoppingBasket className="text-yellow-600 text-7xl" />
           <div>
-            <strong>Scenic Views:</strong>
+            <strong>Farm-to-Table Experience</strong>
             <p>
-              Enjoy stunning views of the surrounding nature, offering a
-              peaceful environment for your stay.
+              Savor dishes crafted with love using fresh ingredients sourced
+              directly from our own farm.
             </p>
           </div>
         </li>
 
-        {/* Delicious Food */}
+        {/* Authentic Marpha Experience */}
         <li className="flex flex-col items-center text-center space-y-4">
-          <FaUtensils className="text-yellow-500 text-7xl" />
+          <FaMountain className="text-yellow-600 text-7xl" />
           <div>
-            <strong>Delicious Food:</strong>
+            <strong>Authentic Marpha Experience</strong>
             <p>
-              Savor mouth-watering meals from our restaurant, serving local and
-              international dishes.
-            </p>
-          </div>
-        </li>
-
-        {/* Friendly Staff */}
-        <li className="flex flex-col items-center text-center space-y-4">
-          <FaSmile className="text-yellow-500 text-7xl" />
-          <div>
-            <strong>Friendly Staff:</strong>
-            <p>
-              Our dedicated and friendly staff is here to make your stay as
-              comfortable as possible.
-            </p>
-          </div>
-        </li>
-
-        {/* Prime Location */}
-        <li className="flex flex-col items-center text-center space-y-4">
-          <FaMapMarkerAlt className="text-yellow-500 text-7xl" />
-          <div>
-            <strong>Prime Location:</strong>
-            <p>
-              Situated in a serene area yet close to local attractions,
-              shopping, and entertainment.
-            </p>
-          </div>
-        </li>
-        <li className="flex flex-col items-center text-center space-y-4">
-          <FaShoppingBasket className="text-yellow-500 text-7xl" />
-          <div>
-            <strong>Farm-to-Table Experience:</strong>
-            <p>
-              Enjoy fresh, organic ingredients sourced directly from our local
-              farm, ensuring a wholesome dining experience.
+              Immerse yourself in the unique culture and traditions of Marpha
+              village.
             </p>
           </div>
         </li>

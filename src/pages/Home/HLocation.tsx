@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"; // Import motion from framer-motion
-import map from "../../image/Location.png";
+import map from "../../image/marpha.jpg";
 
 const Location = () => {
   return (
@@ -9,14 +9,14 @@ const Location = () => {
       animate={{ opacity: 1 }} // Final state (fully visible)
       transition={{ duration: 0.8 }} // Duration for the fade-in effect
     >
-      <h3 className="text-black text-2xl md:text-4xl mb-6 font-roboto-flex">
+      <h3 className="text-black text-3xl md:text-4xl mb-6 font-roboto-flex">
         Location
       </h3>
       {/* Animate the image */}
       <motion.img
         src={map}
         alt="Map of Marpha"
-        className="mx-auto w-full max-w-2xl sm:max-w-xl md:max-w-lg lg:max-w-lg h-auto"
+        className="mx-auto w-full max-w-2xl sm:max-w-xl md:max-w-lg lg:max-w-full h-auto"
         initial={{ scale: 0.8, opacity: 0 }} // Start smaller and hidden
         animate={{ scale: 1, opacity: 1 }} // Grow to full size and become visible
         transition={{
