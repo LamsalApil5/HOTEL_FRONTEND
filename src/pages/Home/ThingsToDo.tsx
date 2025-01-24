@@ -16,7 +16,7 @@ const ThingsToDo: React.FC = () => {
         {/* Item 1 */}
         <li className="flex flex-col items-center space-y-4">
           <div className="flex flex-col items-center space-y-2">
-            <div className="text-center text-md text-yellow-600 font-roboto-flex">
+            <div className="text-center text-yellow-600 font-roboto-flex text-lg ">
               <strong>Visit the Horticulture Apple Farm:</strong>
             </div>
             <p className="text-center">
@@ -28,7 +28,7 @@ const ThingsToDo: React.FC = () => {
         {/* Item 2 */}
         <li className="flex flex-col items-center space-y-4">
           <div className="flex flex-col items-center space-y-2">
-            <div className="text-center text-md text-yellow-600 font-roboto-flex">
+            <div className="text-center text-lg text-yellow-600 font-roboto-flex">
               <strong>Take a Tour of the Distillery:</strong>
             </div>
             <p className="text-center">
@@ -40,7 +40,7 @@ const ThingsToDo: React.FC = () => {
         {/* Item 3 */}
         <li className="flex flex-col items-center space-y-4">
           <div className="flex flex-col items-center space-y-2">
-            <div className="text-center text-md text-yellow-600 font-roboto-flex">
+            <div className="text-center text-lg  text-yellow-600 font-roboto-flex">
               <strong>Pay a Pilgrimage to the Monastery:</strong>
             </div>
             <p className="text-center">
@@ -52,7 +52,7 @@ const ThingsToDo: React.FC = () => {
         {/* Item 4 */}
         <li className="flex flex-col items-center space-y-4">
           <div className="flex flex-col items-center space-y-2">
-            <div className="text-center text-md text-yellow-600 font-roboto-flex">
+            <div className="text-center text-lg  text-yellow-600 font-roboto-flex">
               <strong>Explore the Cultural Museum:</strong>
             </div>
             <p className="text-center">
@@ -64,7 +64,7 @@ const ThingsToDo: React.FC = () => {
         {/* Item 5 */}
         <li className="flex flex-col items-center space-y-4">
           <div className="flex flex-col items-center space-y-2">
-            <div className="text-center text-md text-yellow-600 font-roboto-flex">
+            <div className="text-center text-lg text-yellow-600 font-roboto-flex">
               <strong>Take a Side Trip to Marpha Hill:</strong>
             </div>
             <p className="text-center">

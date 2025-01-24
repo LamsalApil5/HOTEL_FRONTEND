@@ -18,8 +18,8 @@ const WhyChooseSection: React.FC = () => {
         <li className="flex flex-col items-center text-center space-y-4">
           <FaBed className="text-yellow-600 text-7xl" />
           <div>
-            <strong>Cozy Rooms:</strong>
-            <p>
+            <strong className="font-roboto-flex text-lg font-semibold">Cozy Rooms:</strong>
+            <p className="font-lora">
               Traditionally crafted, comfortable rooms with attached bathrooms,
               hot showers, and complimentary Wi-Fi to ensure a relaxing stay.
             </p>
@@ -30,8 +30,8 @@ const WhyChooseSection: React.FC = () => {
         <li className="flex flex-col items-center text-center space-y-4">
           <FaShoppingBasket className="text-yellow-600 text-7xl" />
           <div>
-            <strong>Farm-to-Table Experience</strong>
-            <p>
+            <strong className="font-roboto-flex text-lg font-semibold">Farm-to-Table Experience</strong>
+            <p className="font-lora">
               Savor dishes crafted with love using fresh ingredients sourced
               directly from our own farm.
             </p>
@@ -42,8 +42,8 @@ const WhyChooseSection: React.FC = () => {
         <li className="flex flex-col items-center text-center space-y-4">
           <FaMountain className="text-yellow-600 text-7xl" />
           <div>
-            <strong>Authentic Marpha Experience</strong>
-            <p>
+            <strong className="font-roboto-flex text-lg font-semibold">Authentic Marpha Experience</strong>
+            <p className="font-lora">
               Immerse yourself in the unique culture and traditions of Marpha
               village.
             </p>
@@ -54,8 +54,8 @@ const WhyChooseSection: React.FC = () => {
         <li className="flex flex-col items-center text-center space-y-4">
           <FaCoffee className="text-yellow-600 text-7xl" />
           <div>
-            <strong>Local Organic Coffee</strong>
-            <p>
+            <strong className="font-roboto-flex text-lg font-semibold">Local Organic Coffee</strong>
+            <p className="font-lora">
               Delight in the rich aroma and taste of freshly brewed organic
               coffee, a specialty of Marpha.
             </p>

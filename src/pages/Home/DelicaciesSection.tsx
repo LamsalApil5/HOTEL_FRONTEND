@@ -68,10 +68,10 @@ export function DelicaciesSection() {
               className="flex flex-col items-center p-6 duration-300"
             >
               <item.icon className="h-12 w-12 text-yellow-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 font-roboto-flex">
                 {item.name}
               </h3>
-              <p className="text-gray-600 text-center">{item.description}</p>
+              <p className="text-gray-600 text-center font-lora">{item.description}</p>
             </div>
           ))}
         </div>
