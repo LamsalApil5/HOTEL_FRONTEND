@@ -3,12 +3,13 @@ import RoomImage from '../image/Accommodations/doubleBedRoom2.jpg';
 import { FaShower, FaWifi, FaTshirt, FaSoap, FaToiletPaper, FaSolarPanel } from 'react-icons/fa';
 import AboutAccommodations from './Home/AboutAccommodations';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
+import { Button } from '@/components/ui/button';
 
 const RoomsPage = () => {
   const navigate = useNavigate(); // Initialize the navigate function
 
   return (
-    <>
+    <div className='mb-16'>
       <AboutAccommodations />
       <div className="container mx-auto px-4 py-8 flex flex-col items-center justify-center min-h-screen">
         <h2 className="text-5xl mb-16 font-roboto-flex">Our Room</h2>
@@ -47,7 +48,7 @@ const RoomsPage = () => {
           transition={{ duration: 0.5 }}
         >
           <h3 className="text-2xl text-center font-bold mb-8">Room Amenities</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 text-center mb-8">
             <div className="flex flex-col items-center">
               <FaSolarPanel className="text-4xl mb-2 text-green-500" />
               <span className="text-gray-600">Solar Panel Hot Water</span>
@@ -76,16 +77,23 @@ const RoomsPage = () => {
         </motion.div>
 
         {/* Booking Button */}
-        <div className="mt-16">
-          <button
-            className="bg-green-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-green-700 transition duration-300 font-bold"
-            onClick={() => navigate('/contact')} // Redirect to the Contact page
+          {/* Booking Button */}
+          <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.8, duration: 0.5 }}
+        >
+          <Button
+            size="lg"
+            className="shadow-lg bg-yellow-50 hover:bg-yellow-100 text-black"
+            onClick={() => navigate('/contact')}
           >
             Book Now
-          </button>
-        </div>
+          </Button>
+        </motion.div>
+        
       </div>
-    </>
+    </div>
   );
 };
 
