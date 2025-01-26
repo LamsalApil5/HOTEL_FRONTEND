@@ -2,7 +2,6 @@ import { useState } from "react";
 import image1 from "../image/Gallery/image1.jpg";
 import image2 from "../image/Gallery/image2.jpg";
 import image3 from "../image/Gallery/image3.jpg";
-import image4 from "../image/Gallery/image4.jpeg";
 import image5 from "../image/Gallery/image5.jpeg";
 import image6 from "../image/Gallery/image6.jpeg";
 import image7 from "../image/Gallery/image7.jpeg";
@@ -29,7 +28,6 @@ const GalleryPage = () => {
     { id: 1, url: image1, type: "image" },
     { id: 2, url: image2, type: "image" },
     { id: 3, url: image3, type: "image" },
-    { id: 4, url: image4, type: "image" },
     { id: 5, url: image5, type: "image" },
     { id: 6, url: image6, type: "image" },
     { id: 7, url: image7, type: "image" },
@@ -49,23 +47,29 @@ const GalleryPage = () => {
 
   return (
     <div className="mx-1 lg:mx-36 ">
-      <h1 className="text-center text-5xl my-4 font-roboto-flex py-8">Image Gallery</h1>
+      <h1 className="text-center text-5xl my-4 font-roboto-flex py-8">
+        Image Gallery
+      </h1>
 
+      {/* Image/Video Grid */}
       {/* Image/Video Grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
         {media.map((item) => (
-          <div key={item.id} className="cursor-pointer">
+          <div
+            key={item.id}
+            className="cursor-pointer relative w-full h-0 pb-[100%] rounded-lg overflow-hidden"
+          >
             {item.type === "image" ? (
               <img
                 src={item.url}
                 alt={`Gallery Media ${item.id}`}
-                className="w-full h-auto object-cover rounded-lg"
+                className="absolute top-0 left-0 w-full h-full object-cover"
                 onClick={() => openPopup(item)}
               />
             ) : (
               <video
                 src={item.url}
-                className="w-full h-auto object-cover rounded-lg"
+                className="absolute top-0 left-0 w-full h-full object-cover"
                 onClick={() => openPopup(item)}
                 controls
               />

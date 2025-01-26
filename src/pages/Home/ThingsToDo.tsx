@@ -38,13 +38,15 @@ const ThingsToDo: React.FC = () => {
         </li>
 
         {/* Item 3 */}
+        
         <li className="flex flex-col items-center space-y-4">
           <div className="flex flex-col items-center space-y-2">
             <div className="text-center text-lg  text-yellow-600 font-roboto-flex">
               <strong>Pay a Pilgrimage to the Monastery:</strong>
             </div>
             <p className="text-center">
-              Experience spiritual calm during the "Daily Puja" at the Nyingma monastery and enjoy panoramic views of the Gandaki River valley.
+              Experience spiritual calm during the "Daily Puja" at the SAMTELING
+              monastery and enjoy panoramic views of the Gandaki River valley.
             </p>
           </div>
         </li>

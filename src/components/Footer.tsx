@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import logo from "../image/Logo.png";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import google from "../image/Footer/Google.png";
-import booking from "../image/Footer/Booking.png";
-import tripAdvisor from "../image/Footer/TripAdvisor.png";
 const Footer = () => {
   return (
     <>
@@ -154,7 +152,17 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-
+              <div className="flex justify-end items-end gap-6 mt-2">
+                <motion.p
+                  className="text-sm lg:text-md font-lora text-gray-700"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.2, duration: 0.5 }}
+                >
+                  Join us for an experience where tradition meets hospitality,
+                  and every detail is designed to make your stay unforgettable.
+                </motion.p>
+              </div>
               {/* Logos Section */}
               <div className="flex justify-end items-end gap-6 mt-6">
                 <a
@@ -165,28 +173,6 @@ const Footer = () => {
                   <img
                     src={google}
                     alt="Google Logo"
-                    className="h-12 w-12 object-contain"
-                  />
-                </a>
-                <a
-                  href="https://www.booking.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={booking}
-                    alt="Booking.com Logo"
-                    className="h-12 w-12 object-contain"
-                  />
-                </a>
-                <a
-                  href="https://www.tripadvisor.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={tripAdvisor}
-                    alt="TripAdvisor Logo"
                     className="h-12 w-12 object-contain"
                   />
                 </a>

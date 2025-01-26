@@ -46,7 +46,7 @@ const TeamMemberCard: React.FC<{ member: TeamMember; reverse: boolean }> = ({
 }) => {
   return (
     <div
-      className={`team-member-card hover:shadow-lg bg-white p-4 transition-all duration-1000 ease-out flex flex-col md:flex-row items-center md:items-start gap-6 ${
+      className={`team-member-card bg-white p-4 transition-all duration-1000 ease-out flex flex-col md:flex-row items-center md:items-start gap-6 ${
         reverse ? "md:flex-row-reverse" : ""
       }`}
     >
@@ -54,7 +54,8 @@ const TeamMemberCard: React.FC<{ member: TeamMember; reverse: boolean }> = ({
         <img
           src={member.photoUrl}
           alt={`${member.name}'s photo`}
-          className="w-30 h-30 md:w-45 md:h-45 rounded-md"
+          className="w-44 h-44 md:w-60 md:h-60 rounded-full mx-auto transform transition-transform duration-500 hover:scale-125 md:hover:scale-150"
+          style={{ transformOrigin: "center" }}
         />
       </div>
       <div className="flex-1 text-center md:text-left">

@@ -3,7 +3,6 @@ import { Testimonial } from "./Testimonial";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import google from "../../image/Footer/Google.png";
-import tripadvisor from "../../image/Footer/TripAdvisor.png";
 
 const testimonials = [
   {
@@ -22,7 +21,7 @@ const testimonials = [
     name: "Morgan Welch",
     content:
       "We stopped at a few different places to check pricing. This place was a very good deal, and to top it off has a very nice man as host. Pretty standard beds, nice hot showers, and good food to wind down. Wound stay again if passing through. Tip: apple brandy is a major export out of Marpha, and it is much cheaper than ordering beer. Give the apricot brandy a try as well.",
-    image: tripadvisor,
+    image: google,
   },
 ];
 

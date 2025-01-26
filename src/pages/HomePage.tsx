@@ -5,7 +5,6 @@ import SEO from "./SEO/SEO";
 import logo from "../image/Logo.png";
 import { TestimonialSection } from "./Home/TestimonialSection";
 import ThingsToDo from "./Home/ThingsToDo";
-import { DelicaciesSection } from "./Home/DelicaciesSection";
 const HomePage = () => {
   return (
     <>
@@ -23,7 +22,6 @@ const HomePage = () => {
         <Location />
         <WhyChooseSection />
         <ThingsToDo/>
-        <DelicaciesSection/>
         <TestimonialSection />
       </div>
     </>

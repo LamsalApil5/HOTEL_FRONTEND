@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import imgHotel from "../../image/Hero.jpeg";
+import imgHotel from "../../image/Hero.jpg";
 import "../../assets/style/fonts.css";
 import flagImage from "../../image/prayer-flags.png";
 
@@ -31,6 +31,17 @@ const HeroSection = () => {
               transition={{ delay: 0.2, duration: 0.5 }}
             >
               Marpha - Mustang - Nepal
+            </motion.p>
+            <motion.p
+              className="text-sm lg:text-lg mt-4 lg:mt-8 font-lora text-gray-700"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+            >
+              Nestled in the heart of the majestic Himalayas, our family-owned
+              hotel has been a cherished retreat since 1979. Now managed by the
+              second generation, we take pride in blending authenticity with
+              luxury to offer a truly memorable stay.
             </motion.p>
           </div>
         </div>

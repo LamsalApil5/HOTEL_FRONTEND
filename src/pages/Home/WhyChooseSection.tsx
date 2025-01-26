@@ -1,6 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion"; // Import motion from framer-motion
-import { FaBed, FaMountain, FaShoppingBasket, FaCoffee } from "react-icons/fa"; // Import icons, including FaCoffee
+import {
+  FaBed,
+  FaMountain,
+  FaShoppingBasket,
+  FaCoffee,
+  FaPaw,
+} from "react-icons/fa"; // Import icons, including FaCoffee
 
 const WhyChooseSection: React.FC = () => {
   return (
@@ -13,12 +19,14 @@ const WhyChooseSection: React.FC = () => {
       <h2 className="text-3xl text-center text-black mb-6 md:mb-12 font-roboto-flex ">
         Why Choose Us
       </h2>
-      <ul className="list-none grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-gray-600 font-lora">
+      <ul className="list-none grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-600 font-lora">
         {/* Cozy Rooms */}
         <li className="flex flex-col items-center text-center space-y-4">
           <FaBed className="text-yellow-600 text-7xl" />
           <div>
-            <strong className="font-roboto-flex text-lg font-semibold">Cozy Rooms:</strong>
+            <strong className="font-roboto-flex text-lg font-semibold">
+              Cozy Rooms:
+            </strong>
             <p className="font-lora">
               Traditionally crafted, comfortable rooms with attached bathrooms,
               hot showers, and complimentary Wi-Fi to ensure a relaxing stay.
@@ -30,7 +38,9 @@ const WhyChooseSection: React.FC = () => {
         <li className="flex flex-col items-center text-center space-y-4">
           <FaShoppingBasket className="text-yellow-600 text-7xl" />
           <div>
-            <strong className="font-roboto-flex text-lg font-semibold">Farm-to-Table Experience</strong>
+            <strong className="font-roboto-flex text-lg font-semibold">
+              Farm-to-Table Experience
+            </strong>
             <p className="font-lora">
               Savor dishes crafted with love using fresh ingredients sourced
               directly from our own farm.
@@ -42,7 +52,9 @@ const WhyChooseSection: React.FC = () => {
         <li className="flex flex-col items-center text-center space-y-4">
           <FaMountain className="text-yellow-600 text-7xl" />
           <div>
-            <strong className="font-roboto-flex text-lg font-semibold">Authentic Marpha Experience</strong>
+            <strong className="font-roboto-flex text-lg font-semibold">
+              Authentic Marpha Experience
+            </strong>
             <p className="font-lora">
               Immerse yourself in the unique culture and traditions of Marpha
               village.
@@ -54,10 +66,25 @@ const WhyChooseSection: React.FC = () => {
         <li className="flex flex-col items-center text-center space-y-4">
           <FaCoffee className="text-yellow-600 text-7xl" />
           <div>
-            <strong className="font-roboto-flex text-lg font-semibold">Local Organic Coffee</strong>
+            <strong className="font-roboto-flex text-lg font-semibold">
+              Local Organic Coffee to Freshly Brewed Coffee
+            </strong>
             <p className="font-lora">
-              Delight in the rich aroma and taste of freshly brewed organic
-              coffee, a specialty of Marpha.
+              Indulge in freshly brewed coffee at our café made with the finest
+              beans. Perfect for coffee lovers
+            </p>
+          </div>
+        </li>
+        {/* Pet Friendly */}
+        <li className="flex flex-col items-center text-center space-y-4">
+          <FaPaw className="text-yellow-600 text-7xl" />
+          <div>
+            <strong className="font-roboto-flex text-lg font-semibold">
+              Pet Friendly
+            </strong>
+            <p className="font-lora">
+              Enjoy a pet-friendly stay with us, where your furry friends are
+              welcomed with open arms.
             </p>
           </div>
         </li>
