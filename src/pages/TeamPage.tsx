@@ -18,9 +18,9 @@ const TeamPage: React.FC = () => {
     <div className="max-w-7xl mx-auto mb-6 md:mb-32">
       <motion.h1
         className="text-5xl md:text-4xl text-center text-gray-800 mb-8 font-roboto-flex py-8"
-        initial={{ opacity: 0 }} // Start invisible
-        whileInView={{ opacity: 1 }} // Fade in when in view
-        transition={{ duration: 0.5 }} // Duration of the fade-in effect
+        initial={{ opacity: 0 }} 
+        whileInView={{ opacity: 1 }} 
+        transition={{ duration: 0.5 }} 
       >
         Meet Our Team
       </motion.h1>
@@ -28,9 +28,9 @@ const TeamPage: React.FC = () => {
         {teamMembers.map((member, index) => (
           <motion.div
             key={member.id}
-            initial={{ opacity: 0 }} // Start invisible
-            whileInView={{ opacity: 1 }} // Fade in when in view
-            transition={{ duration: 0.5, delay: index * 0.2 }} // Delay each member's fade-in
+            initial={{ opacity: 0 }} 
+            whileInView={{ opacity: 1 }} 
+            transition={{ duration: 0.5, delay: index * 0.2 }} 
           >
             <TeamMemberCard member={member} reverse={index % 2 !== 0} />
           </motion.div>

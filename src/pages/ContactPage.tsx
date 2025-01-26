@@ -82,7 +82,7 @@ const ContactPage = () => {
               <div className="flex space-x-6 text-4xl">
                 {/* WhatsApp */}
                 <a
-                  href="https://wa.me/9779805839753"
+                  href="https://wa.me/9779805839153"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-500 hover:text-green-700"
@@ -116,7 +116,7 @@ const ContactPage = () => {
                 </p>
                 <p className="text-lg mb-2 text-gray-600">
                   <strong className="font-semibold">Phone:</strong> +977
-                  9805839753
+                  +9779805839153
                 </p>
                 <p className="text-lg mb-2 text-gray-600">
                   <strong className="font-semibold">Email:</strong>{" "}

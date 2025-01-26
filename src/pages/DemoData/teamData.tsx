@@ -1,5 +1,5 @@
-import owner from "../../image/Team/Owner.jpg"
-import gardener from "../../image/Team/gardener.jpg"
+import owner from "../../image/Team/Owner.jpg";
+import gardener from "../../image/Team/gardener.jpg";
 
 export interface TeamMember {
   id: number;
@@ -15,34 +15,41 @@ export const teamData: TeamMember[] = [
     name: "Roshni Bista",
     position: "Proud Owner and Head Chef",
     photoUrl: owner,
-    bio: "Passionate about creating delicious meals and leading the kitchen.",
+    bio: "The proud owner and head chef With the passion for authentic cuisine and commitment to delivering an exceptional guest experience,she ensures every dish is a true reflection of our heritage and quality .",
   },
   {
     id: 2,
     name: "Riya Bista",
     position: "Operation",
     photoUrl: "https://picsum.photos/200?random=2",
-    bio: "Ensuring smooth operations and managing daily activities.",
+    bio: "Oversees operation with dedication,ensuring excellent customer service while managing online presence and bookings seamlessly.",
   },
   {
     id: 3,
     name: "Renu Bista",
     position: "Assistant",
     photoUrl: "https://picsum.photos/200?random=3",
-    bio: "Assisting with various tasks and supporting the team in every way.",
+    bio: "Heart of our team,looks after every detail with care and dedication that feels like home.",
   },
   {
     id: 4,
+    name: "Ronit Bista",
+    position: "Barista",
+    photoUrl: "https://picsum.photos/200?random=4",
+    bio: "Our passionate barista,crafts each cup with skill and love , bringing warmth and flavor of himalayas to every sip.",
+  },
+  {
+    id: 5,
     name: "Sita",
     position: "Housekeeping",
     photoUrl: "https://picsum.photos/200?random=4",
-    bio: "Maintaining cleanliness and ensuring a welcoming environment.",
+    bio: "With dedication and attention to detail,she ensures a clean,comfortable and welcoming environment for everyone.",
   },
   {
     id: 5,
     name: "Chandra",
     position: "Gardener",
     photoUrl: gardener,
-    bio: "Tending to the garden and ensuring a green and beautiful space.",
+    bio: "With over 3 decades of experience,he has been the backbone of our farm, cultivating fresh vegetables and ensuring every harvest reflects his hard work and passion.",
   },
 ];

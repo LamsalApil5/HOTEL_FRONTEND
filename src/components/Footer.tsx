@@ -41,10 +41,10 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  href="tel:+9779805839753"
+                  href="tel:+9779805839153"
                   className="hover:underline text-gray-600"
                 >
-                  +977 9805839753
+                  +977 9805839153
                 </a>
                 ,{" "}
                 <a

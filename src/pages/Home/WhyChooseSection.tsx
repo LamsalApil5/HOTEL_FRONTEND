@@ -71,7 +71,7 @@ const WhyChooseSection: React.FC = () => {
             </strong>
             <p className="font-lora">
               Indulge in freshly brewed coffee at our café made with the finest
-              beans. Perfect for coffee lovers
+              beans. Perfect for coffee lovers.
             </p>
           </div>
         </li>
