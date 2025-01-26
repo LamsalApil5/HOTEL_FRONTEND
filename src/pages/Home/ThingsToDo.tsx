@@ -45,7 +45,7 @@ const ThingsToDo: React.FC = () => {
               <strong>Pay a Pilgrimage to the Monastery:</strong>
             </div>
             <p className="text-center">
-              Experience spiritual calm during the "Daily Puja" at the SAMTELING
+              Experience spiritual calm during the "Daily Puja" at the Samteling
               monastery and enjoy panoramic views of the Gandaki River valley.
             </p>
           </div>

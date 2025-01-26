@@ -53,9 +53,8 @@ const mockData: Data = {
       name: "Apricot Juice",
       description:
         "Sourced from the finest apricots grown in our orchard, our Apricot Juice is a refreshing and naturally sweet drink. Packed with vitamins and antioxidants, it’s the perfect drink to quench your thirst after a long trek. The rich, fruity flavor of the apricots is balanced with a hint of tanginess, offering a rejuvenating experience in every sip. A local favorite that captures the essence of Marpha’s bountiful harvest!",
-      image: ApricotJuice,  
-    }
-    
+      image: ApricotJuice,
+    },
   ],
 
   history:
@@ -79,9 +78,6 @@ const OurLocalPage = () => {
     <div className="bg-gray-50">
       {/* History of Marpha Section */}
       <div className="py-16 px-6 md:px-32">
-        <h2 className="text-3xl text-center font-roboto-flex text-gray-800">
-          The History of Marpha
-        </h2>
         <motion.img
           src={AppleHist}
           alt="Map of Marpha"
@@ -95,6 +91,9 @@ const OurLocalPage = () => {
             duration: 0.8, // Time to complete the animation
           }}
         />
+        <h2 className="text-3xl text-center font-roboto-flex text-gray-800">
+          The History of Marpha
+        </h2>
         <p className="text-lg text-gray-700 mt-6 text-center font-lora">
           {data.history}
         </p>

@@ -67,7 +67,7 @@ const WhyChooseSection: React.FC = () => {
           <FaCoffee className="text-yellow-600 text-7xl" />
           <div>
             <strong className="font-roboto-flex text-lg font-semibold">
-              Local Organic Coffee to Freshly Brewed Coffee
+              Freshly Brewed Coffee
             </strong>
             <p className="font-lora">
               Indulge in freshly brewed coffee at our café made with the finest
