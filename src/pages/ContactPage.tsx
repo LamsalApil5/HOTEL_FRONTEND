@@ -112,11 +112,12 @@ const ContactPage = () => {
               </div>
               <div className="text-left">
                 <p className="text-lg mb-2 text-gray-600">
-                  <strong className="font-semibold">Hotline:</strong> 9842850833
+                  <strong className="font-semibold">Hotline:</strong> +977
+                  9842850833
                 </p>
                 <p className="text-lg mb-2 text-gray-600">
                   <strong className="font-semibold">Phone:</strong> +977
-                  +9779805839153
+                  9805839153
                 </p>
                 <p className="text-lg mb-2 text-gray-600">
                   <strong className="font-semibold">Email:</strong>{" "}
