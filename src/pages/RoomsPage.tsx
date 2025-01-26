@@ -12,7 +12,7 @@ const RoomsPage = () => {
     <div className='mb-16'>
       <AboutAccommodations />
       <div className="container mx-auto px-4 py-8 flex flex-col items-center justify-center min-h-screen">
-        <h2 className="text-5xl mb-16 font-roboto-flex">Our Room</h2>
+        <h2 className="text-4xl mb-16 font-roboto-flex">Our Room</h2>
 
         {/* Room Details Section */}
         <motion.div
@@ -32,7 +32,7 @@ const RoomsPage = () => {
             </div>
             {/* Room Details */}
             <div className="p-8 text-center">
-              <h3 className="text-3xl font-bold mb-4 font-roboto-flex">Triple Occupancy Room</h3>
+              <h3 className="text-3xl mb-4 font-roboto-flex">Triple Occupancy Room</h3>
               <p className="text-gray-600 font-lora">
                 Our room is designed for triple occupancy, featuring cozy warm wooden interiors that offer the perfect blend of comfort and elegance.
               </p>

@@ -101,7 +101,7 @@ const OurLocalPage = () => {
 
       {/* Products Section */}
       <div className="py-8 px-6 md:px-32">
-        <h2 className="text-3xl text-center font-roboto-flex text-gray-800 pb-8">
+        <h2 className="text-4xl text-center font-roboto-flex text-gray-800 pb-8">
           Our Marpha Special
         </h2>
         {data.products.map((product, index) => (
